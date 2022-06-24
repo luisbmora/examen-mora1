@@ -1,0 +1,834 @@
+2021-12-01 11:55:22.351 [main] INFO  Launcher    ********************************************************************************
+2021-12-01 11:55:22.354 [main] INFO  Launcher    **                                  Protege                                   **
+2021-12-01 11:55:22.355 [main] INFO  Launcher    ********************************************************************************
+2021-12-01 11:55:22.355 [main] INFO  Launcher    
+2021-12-01 11:55:22.355 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+2021-12-01 11:55:22.355 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+2021-12-01 11:55:22.356 [main] INFO  Launcher    
+2021-12-01 11:55:22.557 [main] INFO  Launcher    The OSGi framework has been initialised
+2021-12-01 11:55:24.884 [main] INFO  Launcher    ------------------------------- Starting Bundles -------------------------------
+2021-12-01 11:55:24.885 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-01 11:55:24.885 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-01 11:55:24.886 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-01 11:55:24.887 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-01 11:55:24.887 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-01 11:55:24.887 [main] INFO  Launcher    Starting bundle org.apache.commons.io
+2021-12-01 11:55:24.888 [main] INFO  Launcher    Starting bundle com.google.guava
+2021-12-01 11:55:24.888 [main] INFO  Launcher    Starting bundle com.googlecode.javaewah.JavaEWAH
+2021-12-01 11:55:24.889 [main] INFO  Launcher    Starting bundle org.jsr-305
+2021-12-01 11:55:24.890 [main] INFO  Launcher    Starting bundle jul.to.slf4j
+2021-12-01 11:55:24.890 [main] INFO  Launcher    Starting bundle log4j.over.slf4j
+2021-12-01 11:55:24.891 [main] INFO  Launcher    Starting bundle ch.qos.logback.classic
+2021-12-01 11:55:24.891 [main] INFO  Launcher    Starting bundle ch.qos.logback.core
+2021-12-01 11:55:24.892 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.aopalliance
+2021-12-01 11:55:24.892 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.javax-inject
+2021-12-01 11:55:24.892 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-01 11:55:24.892 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-01 11:55:24.892 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-01 11:55:24.893 [main] INFO  Launcher    Starting bundle org.eclipse.jgit
+2021-12-01 11:55:24.893 [main] INFO  Launcher    Starting bundle org.semanticweb.owl.owlapi
+2021-12-01 11:55:24.893 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-01 11:55:24.893 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-01 11:55:24.894 [main] INFO  Launcher    Starting bundle org.protege.editor.owl
+2021-12-01 11:55:24.894 [main] INFO  Launcher    Starting bundle slf4j.api
+2021-12-01 11:55:24.895 [main] INFO  Launcher    Starting bundle cellfie
+2021-12-01 11:55:24.895 [main] INFO  Launcher    Starting bundle code-generation
+2021-12-01 11:55:24.896 [main] INFO  Launcher    Starting bundle existentialquery
+2021-12-01 11:55:24.896 [main] INFO  Launcher    Starting bundle uk.ac.manchester.cs.owl.explanation
+2021-12-01 11:55:24.897 [main] INFO  Launcher    Starting bundle org.protege.ontograf
+2021-12-01 11:55:24.897 [main] INFO  Launcher    Starting bundle org.coode.dlquery
+2021-12-01 11:55:24.897 [main] INFO  Launcher    Starting bundle org.semanticweb.hermit
+2021-12-01 11:55:24.898 [main] INFO  Launcher    Starting bundle org.coode.browser
+2021-12-01 11:55:24.898 [main] INFO  Launcher    Starting bundle org.coode.owlviz
+2021-12-01 11:55:24.899 [main] INFO  Launcher    Starting bundle org.protege.owl.rdf
+2021-12-01 11:55:24.899 [main] INFO  Launcher    Starting bundle org.protege.editor.owl.rdf
+2021-12-01 11:55:24.900 [main] INFO  Launcher    Starting bundle swrltab-plugin
+2021-12-01 11:55:27.841 [main] INFO  Launcher    The OSGi framework has been started
+2021-12-01 11:55:27.841 [main] INFO  Launcher    
+2021-12-01 11:55:27.843 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Protege -----------------------------------
+2021-12-01 11:55:27.845 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2021-12-01 11:55:27.845 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.5.0, Build 
+2021-12-01 11:55:27.846 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-01 11:55:27.846 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    ----------------------------------- Platform -----------------------------------
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    Java: JVM 1.8.0_121-b13  Memory: 466M
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    Language: es, Country: MX
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    Framework: Apache Software Foundation (1.8) 
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    OS: windows10 (10.0)
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    Processor: x86-64
+
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Plugins -----------------------------------
+2021-12-01 11:55:27.847 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWL Code Generation Plug-in (2.0.0)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Existential Query (2.0.0)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Explanation Workbench (3.0.0)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OntoGraf (2.0.3)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: DL Query (4.0.1)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Browser View (OWLDoc) (3.0.3)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLViz (5.0.3)
+2021-12-01 11:55:27.848 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLAPI RDF Library (3.0.0)
+2021-12-01 11:55:27.849 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SPARQL Query Plugin (3.0.0)
+2021-12-01 11:55:27.849 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SWRLTab Protege 5.0+ Plugin (2.0.6)
+2021-12-01 11:55:27.849 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-01 11:55:31.409 [FelixDispatchQueue] INFO  ProtegeApplication    Creating and setting up empty (default) editor kit
+2021-12-01 11:55:31.481 [FelixDispatchQueue] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-01 11:55:31.988 [FelixDispatchQueue] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-2. URI scheme is not "file"
+2021-12-01 11:55:32.674 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------- Auto-update Check ------------------------------
+2021-12-01 11:55:32.678 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update last performed: Wed Dec 31 18:00:00 CST 1969
+2021-12-01 11:55:32.682 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update has not been performed today.  Running it.
+2021-12-01 11:55:32.685 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-01 11:55:32.691 [Auto-Update] INFO  PluginRegistryImpl    ------------------------------ Running Auto-update -----------------------------
+2021-12-01 11:55:32.693 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-01 11:55:32.694 [Auto-Update] INFO  PluginRegistryImpl    --- Searching for plugins ---
+2021-12-01 11:55:32.783 [Auto-Update] INFO  PluginRegistryImpl    Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository
+2021-12-01 11:55:32.784 [Auto-Update] INFO  PluginRegistryImpl        Processing https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository as a plugin registry
+2021-12-01 11:55:34.138 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/cellfie-plugin/master/update-info/protege-5/update.properties
+2021-12-01 11:55:34.913 [Auto-Update] INFO  PluginRegistryImpl            Checking https://gitlab.ifi.uzh.ch/DDIS-Public/chimp-protege-plugin/-/raw/master/update.properties
+2021-12-01 11:55:36.041 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/comodide/CoModIDE/master/update.properties
+2021-12-01 11:55:36.164 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/change-tracker/master/update-info/protege-5/update.properties
+2021-12-01 11:55:36.304 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/csv-export-plugin/master/src/main/resources/update.properties
+2021-12-01 11:55:36.557 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/dlquery/master/update-info/protege-5/update.properties
+2021-12-01 11:55:36.758 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/elk/0.4.3/update.properties
+2021-12-01 11:55:36.922 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/existentialquery/master/update-info/protege-5/update.properties
+2021-12-01 11:55:37.219 [Auto-Update] INFO  PluginRegistryImpl            Checking https://bitbucket.org/dtsarkov/factplusplus/downloads/config.autoupdate.Protege-5.0.txt
+2021-12-01 11:55:38.504 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/julianmendez/jcel/master/update-info/protege-5/update.properties
+2021-12-01 11:55:38.646 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/AOWLN/master/update.properties
+2021-12-01 11:55:39.009 [Auto-Update] INFO  PluginRegistryImpl            Checking http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties
+2021-12-01 11:55:39.418 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/matrix/master/etc/update.matrix.properties
+2021-12-01 11:55:39.835 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/ontograf/master/update-info/protege-5/update.properties
+2021-12-01 11:55:40.340 [Auto-Update] INFO  PluginRegistryImpl            Checking http://isbi.aau.at/ontodebug/update.properties
+2021-12-01 11:55:41.364 [Auto-Update] INFO  PluginRegistryImpl            Checking https://kbss.felk.cvut.cz/tools/owlhierarchy/update.properties
+2021-12-01 11:55:43.635 [Auto-Update] INFO  PluginRegistryImpl            Checking https://github.com/ontop/ontop/raw/master/client/protege/update.properties
+2021-12-01 11:55:44.185 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/rdf-library/master/update-info/protege-5/update.properties
+2021-12-01 11:55:44.322 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owl-diff/master/update-info/protege-5/update.properties
+2021-12-01 11:55:44.460 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/owldoc/master/update-info/protege-5/update.properties
+2021-12-01 11:55:44.598 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owlviz/master/update-info/protege-5/update.properties
+2021-12-01 11:55:44.736 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository
+2021-12-01 11:55:44.737 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository as a plugin registry
+2021-12-01 11:55:44.885 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/update.properties
+2021-12-01 11:55:45.024 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/snap-sparql-query/update-info/protege-5/update.properties
+2021-12-01 11:55:45.220 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/SRE/master/update.properties
+2021-12-01 11:55:45.348 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/sparql-query-plugin/master/update-info/protege-5/update.properties
+2021-12-01 11:55:45.483 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/swrltab-plugin/master/update-info/protege-5/update.properties
+2021-12-01 11:55:45.643 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/OWLAx/master/update.properties
+2021-12-01 11:55:45.824 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/ROWL/master/update.properties
+2021-12-01 11:55:45.962 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/owlcollab/protege-obo-plugin/master/update.properties
+2021-12-01 11:55:46.099 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/geneontology/protege-taxon-constraints/master/update.properties
+2021-12-01 11:55:46.485 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository
+2021-12-01 11:55:46.486 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository as a plugin registry
+2021-12-01 11:55:46.643 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.propertiesInDomainClass/master/update.properties
+2021-12-01 11:55:46.894 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.individualPropertiesContextualAssertions/master/update.properties
+2021-12-01 11:55:47.120 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/NJITSABOC/oaf-protege/OAFSummarizationPlugin/update-info/protege-5/update.properties
+2021-12-01 11:55:47.245 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/fekaputra/shacl-plugin/master/update-info/protege-5/update.properties
+2021-12-01 11:55:47.375 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-01 12:12:05.284 [AWT-EventQueue-0] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-01 12:12:23.257 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    ------------------------------- Loading Ontology -------------------------------
+2021-12-01 12:12:23.258 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading ontology from file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Animales.owl
+2021-12-01 12:12:23.403 [pool-26-thread-1] INFO  OntologyLoader    Finished loading file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Animales.owl
+2021-12-01 12:12:23.420 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading for ontology and imports closure successfully completed in 161 ms
+2021-12-01 12:12:23.423 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    
+2021-12-01 12:12:23.542 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-01 12:12:23.584 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-01 12:12:23.602 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-01 12:12:23.604 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-01 12:12:23.607 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-01 12:12:23.608 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-01 12:12:23.610 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-01 12:12:23.616 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-01 12:12:23.618 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-01 12:12:23.620 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-01 12:12:23.621 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-01 12:12:23.697 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-01 12:30:20.032 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-3. URI scheme is not "file"
+2021-12-01 13:24:16.283 [AWT-EventQueue-0] INFO  OWLEditorKit    ------------------------ Saving Workspace and Ontologies -----------------------
+2021-12-01 13:24:16.283 [AWT-EventQueue-0] INFO  OWLEditorKit    Will prompt 'Save As' for the active ontology because it was not loaded from a local file
+2021-12-01 13:24:16.284 [AWT-EventQueue-0] INFO  OWLEditorKit    Will save the untitled-ontology-2 ontology because it has been modified
+2021-12-01 13:24:16.284 [AWT-EventQueue-0] INFO  OWLEditorKit    Will prompt 'Save As' for the untitled-ontology-3 ontology because it was not loaded from a local file but has been modified
+2021-12-01 13:24:33.911 [pool-28-thread-1] INFO  OntologySaver    Saving untitled-ontology-3
+2021-12-01 13:24:33.917 [pool-28-thread-1] INFO  OntologySaver    Saving ontology to temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3827495360349253052
+2021-12-01 13:24:33.975 [pool-28-thread-1] INFO  OntologySaver    Copying ontology from temp file (C:\Users\lumo9\AppData\Local\Temp\temp-ontology3827495360349253052) to actual destination (C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\Ing. Conocimiento\Pizzeria.owl)
+2021-12-01 13:24:34.141 [pool-28-thread-1] INFO  OntologySaver    Removing temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3827495360349253052
+2021-12-01 13:24:34.166 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-3>) VersionIRI(<null>)) to file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Pizzeria.owl in RDF/XML Syntax format
+2021-12-01 13:24:34.187 [pool-29-thread-1] INFO  OntologySaver    Saving untitled-ontology-2
+2021-12-01 13:24:34.189 [pool-29-thread-1] INFO  OntologySaver    Saving ontology to temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3590289071417059647
+2021-12-01 13:24:34.199 [pool-29-thread-1] INFO  OntologySaver    Copying ontology from temp file (C:\Users\lumo9\AppData\Local\Temp\temp-ontology3590289071417059647) to actual destination (C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\Ing. Conocimiento\Animales.owl)
+2021-12-01 13:24:34.203 [pool-29-thread-1] INFO  OntologySaver    Removing temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3590289071417059647
+2021-12-01 13:24:38.299 [AWT-EventQueue-0] INFO  OntologyReloader    ------------------------------ Reloading ontology ------------------------------
+2021-12-01 13:24:38.299 [AWT-EventQueue-0] INFO  OntologyReloader    Reloading ontology: OntologyID(OntologyIRI(<http://www.semanticweb.org/rafa/ontologies/2021/10/untitled-ontology-2>) VersionIRI(<null>))
+2021-12-01 13:24:38.305 [pool-30-thread-1] INFO  OntologyReloader    Copying 34 declaration axioms from OntologyID(OntologyIRI(<http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-3>) VersionIRI(<null>)) for reloading
+2021-12-01 13:24:38.306 [pool-30-thread-1] INFO  OntologyReloader    Copied ontologies in 1 ms.  Used: 0 MB
+2021-12-01 13:24:38.307 [pool-30-thread-1] INFO  OntologyReloader    Reloading OntologyID(OntologyIRI(<http://www.semanticweb.org/rafa/ontologies/2021/10/untitled-ontology-2>) VersionIRI(<null>)) from file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Animales.owl
+2021-12-01 13:24:38.337 [AWT-EventQueue-0] INFO  OntologyReloader    Applying 0 change(s) to patch ontology to reloaded ontology
+2021-12-01 13:24:38.553 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/rafa/ontologies/2021/10/untitled-ontology-2>) VersionIRI(<null>)) to file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Animales.owl in RDF/XML Syntax format
+2021-12-01 13:24:38.844 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-01 13:24:38.847 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-01 13:24:38.850 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-01 13:24:38.853 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-01 13:24:38.856 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-01 13:24:38.858 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-01 13:24:38.861 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-01 13:24:38.863 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-01 13:24:38.863 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-01 13:24:38.864 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-01 13:24:42.063 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-01 13:24:42.069 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-01 13:24:42.073 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-01 13:24:42.075 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-01 13:24:42.076 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-01 13:24:42.077 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-01 13:24:42.078 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-01 13:24:42.079 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-01 13:24:42.080 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-01 13:24:42.080 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-01 13:24:42.082 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-01 13:24:42.083 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-01 13:24:42.084 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-01 13:24:42.085 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-01 13:24:42.087 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-01 13:24:42.089 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-01 13:24:42.097 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-01 13:24:42.097 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-01 13:24:42.098 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-01 13:24:42.102 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-01 13:24:42.354 [Close OSGi Session] INFO  Launcher    ----------------------- Shutting down Protege -----------------------
+2021-12-01 13:24:42.354 [Close OSGi Session] INFO  Launcher    Cleaning up temporary directories
+2021-12-16 11:11:04.834 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:11:04.853 [main] INFO  Launcher    **                                  Protege                                   **
+2021-12-16 11:11:04.854 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:11:04.854 [main] INFO  Launcher    
+2021-12-16 11:11:04.854 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+2021-12-16 11:11:04.854 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+2021-12-16 11:11:04.855 [main] INFO  Launcher    
+2021-12-16 11:11:05.930 [main] INFO  Launcher    The OSGi framework has been initialised
+2021-12-16 11:11:13.686 [main] INFO  Launcher    ------------------------------- Starting Bundles -------------------------------
+2021-12-16 11:11:13.687 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:11:13.688 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:11:13.689 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:11:13.689 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:11:13.690 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:11:13.690 [main] INFO  Launcher    Starting bundle org.apache.commons.io
+2021-12-16 11:11:13.691 [main] INFO  Launcher    Starting bundle com.google.guava
+2021-12-16 11:11:13.691 [main] INFO  Launcher    Starting bundle com.googlecode.javaewah.JavaEWAH
+2021-12-16 11:11:13.692 [main] INFO  Launcher    Starting bundle org.jsr-305
+2021-12-16 11:11:13.693 [main] INFO  Launcher    Starting bundle jul.to.slf4j
+2021-12-16 11:11:13.693 [main] INFO  Launcher    Starting bundle log4j.over.slf4j
+2021-12-16 11:11:13.694 [main] INFO  Launcher    Starting bundle ch.qos.logback.classic
+2021-12-16 11:11:13.695 [main] INFO  Launcher    Starting bundle ch.qos.logback.core
+2021-12-16 11:11:13.695 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.aopalliance
+2021-12-16 11:11:13.696 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.javax-inject
+2021-12-16 11:11:13.696 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:11:13.696 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:11:13.697 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:11:13.697 [main] INFO  Launcher    Starting bundle org.eclipse.jgit
+2021-12-16 11:11:13.698 [main] INFO  Launcher    Starting bundle org.semanticweb.owl.owlapi
+2021-12-16 11:11:13.698 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:11:13.698 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:11:13.699 [main] INFO  Launcher    Starting bundle org.protege.editor.owl
+2021-12-16 11:11:13.700 [main] INFO  Launcher    Starting bundle slf4j.api
+2021-12-16 11:11:13.700 [main] INFO  Launcher    Starting bundle cellfie
+2021-12-16 11:11:13.701 [main] INFO  Launcher    Starting bundle code-generation
+2021-12-16 11:11:13.702 [main] INFO  Launcher    Starting bundle existentialquery
+2021-12-16 11:11:13.702 [main] INFO  Launcher    Starting bundle uk.ac.manchester.cs.owl.explanation
+2021-12-16 11:11:13.703 [main] INFO  Launcher    Starting bundle org.protege.ontograf
+2021-12-16 11:11:13.704 [main] INFO  Launcher    Starting bundle org.coode.dlquery
+2021-12-16 11:11:13.705 [main] INFO  Launcher    Starting bundle org.semanticweb.hermit
+2021-12-16 11:11:13.705 [main] INFO  Launcher    Starting bundle org.coode.browser
+2021-12-16 11:11:13.706 [main] INFO  Launcher    Starting bundle org.coode.owlviz
+2021-12-16 11:11:13.707 [main] INFO  Launcher    Starting bundle org.protege.owl.rdf
+2021-12-16 11:11:13.708 [main] INFO  Launcher    Starting bundle org.protege.editor.owl.rdf
+2021-12-16 11:11:13.708 [main] INFO  Launcher    Starting bundle swrltab-plugin
+2021-12-16 11:11:17.387 [main] INFO  Launcher    The OSGi framework has been started
+2021-12-16 11:11:17.387 [main] INFO  Launcher    
+2021-12-16 11:11:17.390 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Protege -----------------------------------
+2021-12-16 11:11:17.393 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2021-12-16 11:11:17.393 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.5.0, Build 
+2021-12-16 11:11:17.395 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    ----------------------------------- Platform -----------------------------------
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    Java: JVM 1.8.0_121-b13  Memory: 466M
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    Language: es, Country: MX
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    Framework: Apache Software Foundation (1.8) 
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    OS: windows10 (10.0)
+2021-12-16 11:11:17.396 [FelixDispatchQueue] INFO  ProtegeApplication    Processor: x86-64
+
+2021-12-16 11:11:17.397 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:11:17.397 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Plugins -----------------------------------
+2021-12-16 11:11:17.397 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+2021-12-16 11:11:17.397 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWL Code Generation Plug-in (2.0.0)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Existential Query (2.0.0)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Explanation Workbench (3.0.0)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OntoGraf (2.0.3)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: DL Query (4.0.1)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Browser View (OWLDoc) (3.0.3)
+2021-12-16 11:11:17.398 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLViz (5.0.3)
+2021-12-16 11:11:17.399 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLAPI RDF Library (3.0.0)
+2021-12-16 11:11:17.399 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SPARQL Query Plugin (3.0.0)
+2021-12-16 11:11:17.399 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SWRLTab Protege 5.0+ Plugin (2.0.6)
+2021-12-16 11:11:17.399 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:11:22.390 [FelixDispatchQueue] INFO  ProtegeApplication    Creating and setting up empty (default) editor kit
+2021-12-16 11:11:22.397 [FelixDispatchQueue] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 11:11:23.794 [FelixDispatchQueue] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-4. URI scheme is not "file"
+2021-12-16 11:11:26.038 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------- Auto-update Check ------------------------------
+2021-12-16 11:11:26.042 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update last performed: Wed Dec 01 11:55:47 CST 2021
+2021-12-16 11:11:26.059 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update has not been performed today.  Running it.
+2021-12-16 11:11:26.061 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:11:26.065 [Auto-Update] INFO  PluginRegistryImpl    ------------------------------ Running Auto-update -----------------------------
+2021-12-16 11:11:26.067 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-16 11:11:26.068 [Auto-Update] INFO  PluginRegistryImpl    --- Searching for plugins ---
+2021-12-16 11:11:26.148 [Auto-Update] INFO  PluginRegistryImpl    Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository
+2021-12-16 11:11:26.149 [Auto-Update] INFO  PluginRegistryImpl        Processing https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository as a plugin registry
+2021-12-16 11:11:29.802 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/cellfie-plugin/master/update-info/protege-5/update.properties
+2021-12-16 11:11:30.852 [Auto-Update] INFO  PluginRegistryImpl            Checking https://gitlab.ifi.uzh.ch/DDIS-Public/chimp-protege-plugin/-/raw/master/update.properties
+2021-12-16 11:11:31.686 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/comodide/CoModIDE/master/update.properties
+2021-12-16 11:11:32.143 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/change-tracker/master/update-info/protege-5/update.properties
+2021-12-16 11:11:32.526 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/csv-export-plugin/master/src/main/resources/update.properties
+2021-12-16 11:11:32.818 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/dlquery/master/update-info/protege-5/update.properties
+2021-12-16 11:11:33.124 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/elk/0.4.3/update.properties
+2021-12-16 11:11:33.471 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/existentialquery/master/update-info/protege-5/update.properties
+2021-12-16 11:11:34.112 [Auto-Update] INFO  PluginRegistryImpl            Checking https://bitbucket.org/dtsarkov/factplusplus/downloads/config.autoupdate.Protege-5.0.txt
+2021-12-16 11:11:37.482 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/julianmendez/jcel/master/update-info/protege-5/update.properties
+2021-12-16 11:11:38.220 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/AOWLN/master/update.properties
+2021-12-16 11:11:39.374 [Auto-Update] INFO  PluginRegistryImpl            Checking http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties
+2021-12-16 11:11:45.018 [Auto-Update] INFO  PluginRegistryImpl                The plugin update document at http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties is missing a version string.
+2021-12-16 11:11:45.018 [Auto-Update] INFO  PluginRegistryImpl                Processing http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties as a plugin registry
+2021-12-16 11:11:48.460 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/matrix/master/etc/update.matrix.properties
+2021-12-16 11:11:48.821 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/ontograf/master/update-info/protege-5/update.properties
+2021-12-16 11:11:49.311 [Auto-Update] INFO  PluginRegistryImpl            Checking http://isbi.aau.at/ontodebug/update.properties
+2021-12-16 11:11:49.887 [Auto-Update] INFO  PluginRegistryImpl            Checking https://kbss.felk.cvut.cz/tools/owlhierarchy/update.properties
+2021-12-16 11:11:50.756 [Auto-Update] INFO  PluginRegistryImpl            Checking https://github.com/ontop/ontop/raw/master/client/protege/update.properties
+2021-12-16 11:11:51.452 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/rdf-library/master/update-info/protege-5/update.properties
+2021-12-16 11:11:51.596 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owl-diff/master/update-info/protege-5/update.properties
+2021-12-16 11:11:51.832 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/owldoc/master/update-info/protege-5/update.properties
+2021-12-16 11:11:52.026 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owlviz/master/update-info/protege-5/update.properties
+2021-12-16 11:11:52.192 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository
+2021-12-16 11:11:52.193 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository as a plugin registry
+2021-12-16 11:11:52.366 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/update.properties
+2021-12-16 11:11:52.523 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/snap-sparql-query/update-info/protege-5/update.properties
+2021-12-16 11:11:52.678 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/SRE/master/update.properties
+2021-12-16 11:11:52.924 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/sparql-query-plugin/master/update-info/protege-5/update.properties
+2021-12-16 11:11:53.068 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/swrltab-plugin/master/update-info/protege-5/update.properties
+2021-12-16 11:11:53.211 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/OWLAx/master/update.properties
+2021-12-16 11:11:53.363 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/ROWL/master/update.properties
+2021-12-16 11:11:53.557 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/owlcollab/protege-obo-plugin/master/update.properties
+2021-12-16 11:11:53.754 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/geneontology/protege-taxon-constraints/master/update.properties
+2021-12-16 11:11:53.958 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository
+2021-12-16 11:11:53.959 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository as a plugin registry
+2021-12-16 11:11:55.258 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.propertiesInDomainClass/master/update.properties
+2021-12-16 11:11:56.194 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.individualPropertiesContextualAssertions/master/update.properties
+2021-12-16 11:11:57.175 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/NJITSABOC/oaf-protege/OAFSummarizationPlugin/update-info/protege-5/update.properties
+2021-12-16 11:11:58.083 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/fekaputra/shacl-plugin/master/update-info/protege-5/update.properties
+2021-12-16 11:11:58.769 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-16 11:25:03.364 [pool-26-thread-1] INFO  OntologySaver    Saving untitled-ontology-4
+2021-12-16 11:25:03.367 [pool-26-thread-1] INFO  OntologySaver    Saving ontology to temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology7530355574024209345
+2021-12-16 11:25:03.407 [pool-26-thread-1] INFO  OntologySaver    Copying ontology from temp file (C:\Users\lumo9\AppData\Local\Temp\temp-ontology7530355574024209345) to actual destination (C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\Ing. Conocimiento\Libro.owl)
+2021-12-16 11:25:03.448 [pool-26-thread-1] INFO  OntologySaver    Removing temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology7530355574024209345
+2021-12-16 11:25:03.457 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-4>) VersionIRI(<null>)) to file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Libro.owl in RDF/XML Syntax format
+2021-12-16 11:25:39.546 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 11:25:39.748 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 11:25:39.749 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 11:25:39.750 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 11:25:39.751 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 11:25:39.752 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 11:25:39.753 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 11:25:39.754 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 11:25:39.754 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 11:25:39.755 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 11:25:39.757 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 11:25:39.765 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 11:25:39.766 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 11:25:39.767 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 11:25:39.768 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 11:25:39.769 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 11:25:39.769 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 11:25:39.770 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 11:25:39.771 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 11:25:39.827 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 11:25:39.992 [Close OSGi Session] INFO  Launcher    ----------------------- Shutting down Protege -----------------------
+2021-12-16 11:25:39.993 [Close OSGi Session] INFO  Launcher    Cleaning up temporary directories
+2021-12-16 11:25:44.109 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:25:44.111 [main] INFO  Launcher    **                                  Protege                                   **
+2021-12-16 11:25:44.112 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:25:44.112 [main] INFO  Launcher    
+2021-12-16 11:25:44.112 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+2021-12-16 11:25:44.112 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+2021-12-16 11:25:44.113 [main] INFO  Launcher    
+2021-12-16 11:25:44.247 [main] INFO  Launcher    The OSGi framework has been initialised
+2021-12-16 11:25:45.945 [main] INFO  Launcher    ------------------------------- Starting Bundles -------------------------------
+2021-12-16 11:25:45.945 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:25:45.946 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:25:45.946 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:25:45.947 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:25:45.947 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:25:45.948 [main] INFO  Launcher    Starting bundle org.apache.commons.io
+2021-12-16 11:25:45.948 [main] INFO  Launcher    Starting bundle com.google.guava
+2021-12-16 11:25:45.949 [main] INFO  Launcher    Starting bundle com.googlecode.javaewah.JavaEWAH
+2021-12-16 11:25:45.949 [main] INFO  Launcher    Starting bundle org.jsr-305
+2021-12-16 11:25:45.950 [main] INFO  Launcher    Starting bundle jul.to.slf4j
+2021-12-16 11:25:45.950 [main] INFO  Launcher    Starting bundle log4j.over.slf4j
+2021-12-16 11:25:45.951 [main] INFO  Launcher    Starting bundle ch.qos.logback.classic
+2021-12-16 11:25:45.951 [main] INFO  Launcher    Starting bundle ch.qos.logback.core
+2021-12-16 11:25:45.952 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.aopalliance
+2021-12-16 11:25:45.953 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.javax-inject
+2021-12-16 11:25:45.953 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:25:45.953 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:25:45.953 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:25:45.954 [main] INFO  Launcher    Starting bundle org.eclipse.jgit
+2021-12-16 11:25:45.954 [main] INFO  Launcher    Starting bundle org.semanticweb.owl.owlapi
+2021-12-16 11:25:45.954 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:25:45.955 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:25:45.955 [main] INFO  Launcher    Starting bundle org.protege.editor.owl
+2021-12-16 11:25:45.956 [main] INFO  Launcher    Starting bundle slf4j.api
+2021-12-16 11:25:45.956 [main] INFO  Launcher    Starting bundle cellfie
+2021-12-16 11:25:45.957 [main] INFO  Launcher    Starting bundle code-generation
+2021-12-16 11:25:45.957 [main] INFO  Launcher    Starting bundle existentialquery
+2021-12-16 11:25:45.958 [main] INFO  Launcher    Starting bundle uk.ac.manchester.cs.owl.explanation
+2021-12-16 11:25:45.959 [main] INFO  Launcher    Starting bundle org.protege.ontograf
+2021-12-16 11:25:45.959 [main] INFO  Launcher    Starting bundle org.coode.dlquery
+2021-12-16 11:25:45.960 [main] INFO  Launcher    Starting bundle org.semanticweb.hermit
+2021-12-16 11:25:45.961 [main] INFO  Launcher    Starting bundle org.coode.browser
+2021-12-16 11:25:45.961 [main] INFO  Launcher    Starting bundle org.coode.owlviz
+2021-12-16 11:25:45.962 [main] INFO  Launcher    Starting bundle org.protege.owl.rdf
+2021-12-16 11:25:45.962 [main] INFO  Launcher    Starting bundle org.protege.editor.owl.rdf
+2021-12-16 11:25:45.963 [main] INFO  Launcher    Starting bundle swrltab-plugin
+2021-12-16 11:25:46.510 [main] INFO  Launcher    The OSGi framework has been started
+2021-12-16 11:25:46.510 [main] INFO  Launcher    
+2021-12-16 11:25:46.511 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Protege -----------------------------------
+2021-12-16 11:25:46.513 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2021-12-16 11:25:46.514 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.5.0, Build 
+2021-12-16 11:25:46.515 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:25:46.515 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:25:46.515 [FelixDispatchQueue] INFO  ProtegeApplication    ----------------------------------- Platform -----------------------------------
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    Java: JVM 1.8.0_121-b13  Memory: 466M
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    Language: es, Country: MX
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    Framework: Apache Software Foundation (1.8) 
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    OS: windows10 (10.0)
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    Processor: x86-64
+
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:25:46.516 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Plugins -----------------------------------
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWL Code Generation Plug-in (2.0.0)
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Existential Query (2.0.0)
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Explanation Workbench (3.0.0)
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OntoGraf (2.0.3)
+2021-12-16 11:25:46.517 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: DL Query (4.0.1)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Browser View (OWLDoc) (3.0.3)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLViz (5.0.3)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLAPI RDF Library (3.0.0)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SPARQL Query Plugin (3.0.0)
+2021-12-16 11:25:46.518 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SWRLTab Protege 5.0+ Plugin (2.0.6)
+2021-12-16 11:25:46.519 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:25:48.348 [FelixDispatchQueue] INFO  ProtegeApplication    Creating and setting up empty (default) editor kit
+2021-12-16 11:25:48.355 [FelixDispatchQueue] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 11:25:48.807 [FelixDispatchQueue] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-5. URI scheme is not "file"
+2021-12-16 11:25:49.074 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------- Auto-update Check ------------------------------
+2021-12-16 11:25:49.075 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update last performed: Thu Dec 16 11:11:58 CST 2021
+2021-12-16 11:25:49.078 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update has been performed today.  Not performing it again.
+2021-12-16 11:25:49.078 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:00.296 [AWT-EventQueue-0] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 11:26:00.331 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    ------------------------------- Loading Ontology -------------------------------
+2021-12-16 11:26:00.331 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading ontology from file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Libro.owl
+2021-12-16 11:26:00.435 [pool-25-thread-1] INFO  OntologyLoader    Finished loading file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Libro.owl
+2021-12-16 11:26:00.445 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading for ontology and imports closure successfully completed in 114 ms
+2021-12-16 11:26:00.447 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    
+2021-12-16 11:26:00.522 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 11:26:00.556 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 11:26:00.558 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 11:26:00.559 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 11:26:00.560 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 11:26:00.561 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 11:26:00.562 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 11:26:00.562 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 11:26:00.563 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 11:26:00.564 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 11:26:00.565 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 11:26:00.566 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 11:26:00.567 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 11:26:00.569 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 11:26:00.572 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 11:26:00.573 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 11:26:00.574 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 11:26:00.575 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 11:26:00.576 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 11:26:00.579 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 11:26:31.939 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 11:26:31.944 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 11:26:31.945 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 11:26:31.947 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 11:26:31.949 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 11:26:31.952 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 11:26:31.956 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 11:26:31.957 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 11:26:31.958 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 11:26:31.959 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 11:26:31.960 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 11:26:31.961 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 11:26:31.963 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 11:26:31.965 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 11:26:31.967 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 11:26:31.970 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 11:26:31.971 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 11:26:31.972 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 11:26:31.973 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 11:26:31.980 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 11:26:32.083 [Close OSGi Session] INFO  Launcher    ----------------------- Shutting down Protege -----------------------
+2021-12-16 11:26:32.083 [Close OSGi Session] INFO  Launcher    Cleaning up temporary directories
+2021-12-16 11:26:34.355 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:26:34.357 [main] INFO  Launcher    **                                  Protege                                   **
+2021-12-16 11:26:34.358 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 11:26:34.358 [main] INFO  Launcher    
+2021-12-16 11:26:34.358 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+2021-12-16 11:26:34.358 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+2021-12-16 11:26:34.358 [main] INFO  Launcher    
+2021-12-16 11:26:34.498 [main] INFO  Launcher    The OSGi framework has been initialised
+2021-12-16 11:26:36.491 [main] INFO  Launcher    ------------------------------- Starting Bundles -------------------------------
+2021-12-16 11:26:36.492 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:26:36.492 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:26:36.493 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:26:36.493 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:26:36.494 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:26:36.495 [main] INFO  Launcher    Starting bundle org.apache.commons.io
+2021-12-16 11:26:36.495 [main] INFO  Launcher    Starting bundle com.google.guava
+2021-12-16 11:26:36.496 [main] INFO  Launcher    Starting bundle com.googlecode.javaewah.JavaEWAH
+2021-12-16 11:26:36.497 [main] INFO  Launcher    Starting bundle org.jsr-305
+2021-12-16 11:26:36.497 [main] INFO  Launcher    Starting bundle jul.to.slf4j
+2021-12-16 11:26:36.498 [main] INFO  Launcher    Starting bundle log4j.over.slf4j
+2021-12-16 11:26:36.498 [main] INFO  Launcher    Starting bundle ch.qos.logback.classic
+2021-12-16 11:26:36.499 [main] INFO  Launcher    Starting bundle ch.qos.logback.core
+2021-12-16 11:26:36.499 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.aopalliance
+2021-12-16 11:26:36.500 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.javax-inject
+2021-12-16 11:26:36.500 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 11:26:36.500 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 11:26:36.500 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 11:26:36.501 [main] INFO  Launcher    Starting bundle org.eclipse.jgit
+2021-12-16 11:26:36.501 [main] INFO  Launcher    Starting bundle org.semanticweb.owl.owlapi
+2021-12-16 11:26:36.501 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 11:26:36.502 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 11:26:36.502 [main] INFO  Launcher    Starting bundle org.protege.editor.owl
+2021-12-16 11:26:36.503 [main] INFO  Launcher    Starting bundle slf4j.api
+2021-12-16 11:26:36.503 [main] INFO  Launcher    Starting bundle cellfie
+2021-12-16 11:26:36.504 [main] INFO  Launcher    Starting bundle code-generation
+2021-12-16 11:26:36.504 [main] INFO  Launcher    Starting bundle existentialquery
+2021-12-16 11:26:36.505 [main] INFO  Launcher    Starting bundle uk.ac.manchester.cs.owl.explanation
+2021-12-16 11:26:36.506 [main] INFO  Launcher    Starting bundle org.protege.ontograf
+2021-12-16 11:26:36.507 [main] INFO  Launcher    Starting bundle org.coode.dlquery
+2021-12-16 11:26:36.507 [main] INFO  Launcher    Starting bundle org.semanticweb.hermit
+2021-12-16 11:26:36.508 [main] INFO  Launcher    Starting bundle org.coode.browser
+2021-12-16 11:26:36.509 [main] INFO  Launcher    Starting bundle org.coode.owlviz
+2021-12-16 11:26:36.509 [main] INFO  Launcher    Starting bundle org.protege.owl.rdf
+2021-12-16 11:26:36.510 [main] INFO  Launcher    Starting bundle org.protege.editor.owl.rdf
+2021-12-16 11:26:36.510 [main] INFO  Launcher    Starting bundle swrltab-plugin
+2021-12-16 11:26:36.992 [main] INFO  Launcher    The OSGi framework has been started
+2021-12-16 11:26:36.993 [main] INFO  Launcher    
+2021-12-16 11:26:36.994 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Protege -----------------------------------
+2021-12-16 11:26:36.997 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2021-12-16 11:26:36.997 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.5.0, Build 
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    ----------------------------------- Platform -----------------------------------
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    Java: JVM 1.8.0_121-b13  Memory: 466M
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    Language: es, Country: MX
+2021-12-16 11:26:36.998 [FelixDispatchQueue] INFO  ProtegeApplication    Framework: Apache Software Foundation (1.8) 
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    OS: windows10 (10.0)
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Processor: x86-64
+
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Plugins -----------------------------------
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWL Code Generation Plug-in (2.0.0)
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Existential Query (2.0.0)
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Explanation Workbench (3.0.0)
+2021-12-16 11:26:36.999 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OntoGraf (2.0.3)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: DL Query (4.0.1)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Browser View (OWLDoc) (3.0.3)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLViz (5.0.3)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLAPI RDF Library (3.0.0)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SPARQL Query Plugin (3.0.0)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SWRLTab Protege 5.0+ Plugin (2.0.6)
+2021-12-16 11:26:37.000 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:38.538 [FelixDispatchQueue] INFO  ProtegeApplication    Creating and setting up empty (default) editor kit
+2021-12-16 11:26:38.545 [FelixDispatchQueue] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 11:26:38.975 [FelixDispatchQueue] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-6. URI scheme is not "file"
+2021-12-16 11:26:39.228 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------- Auto-update Check ------------------------------
+2021-12-16 11:26:39.229 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update last performed: Thu Dec 16 11:11:58 CST 2021
+2021-12-16 11:26:39.231 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update has been performed today.  Not performing it again.
+2021-12-16 11:26:39.232 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 11:26:55.649 [AWT-EventQueue-0] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 11:26:55.686 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    ------------------------------- Loading Ontology -------------------------------
+2021-12-16 11:26:55.686 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading ontology from file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Libro.owl
+2021-12-16 11:26:55.851 [pool-26-thread-1] INFO  OntologyLoader    Finished loading file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Libro.owl
+2021-12-16 11:26:55.863 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading for ontology and imports closure successfully completed in 176 ms
+2021-12-16 11:26:55.864 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    
+2021-12-16 11:26:55.947 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 11:26:55.959 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 11:26:55.963 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 11:26:55.964 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 11:26:55.965 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 11:26:55.967 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 11:26:55.968 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 11:26:55.971 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 11:26:55.975 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 11:26:55.976 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 11:26:55.977 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 11:26:55.978 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 11:26:55.979 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 11:26:55.981 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 11:26:55.982 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 11:26:55.985 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 11:26:55.990 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 11:26:55.991 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 11:26:55.992 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 11:26:55.996 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 12:11:48.711 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-7. URI scheme is not "file"
+2021-12-16 12:48:14.194 [AWT-EventQueue-0] INFO  OWLEntityDeleter    ------------------------------- Deleting entities ------------------------------
+2021-12-16 12:48:14.196 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generating changes to remove 1 entities
+2021-12-16 12:48:14.198 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generated 2 changes to remove 1 entities in 1 ms
+2021-12-16 12:48:14.207 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Applied 2 changes in 11
+2021-12-16 12:48:14.208 [AWT-EventQueue-0] INFO  OWLEntityDeleter    
+2021-12-16 12:50:39.803 [AWT-EventQueue-0] INFO  OWLEntityDeleter    ------------------------------- Deleting entities ------------------------------
+2021-12-16 12:50:39.803 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generating changes to remove 1 entities
+2021-12-16 12:50:39.804 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generated 2 changes to remove 1 entities in 0 ms
+2021-12-16 12:50:39.815 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Applied 2 changes in 11
+2021-12-16 12:50:39.816 [AWT-EventQueue-0] INFO  OWLEntityDeleter    
+2021-12-16 12:50:42.553 [AWT-EventQueue-0] INFO  OWLEntityDeleter    ------------------------------- Deleting entities ------------------------------
+2021-12-16 12:50:42.553 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generating changes to remove 1 entities
+2021-12-16 12:50:42.553 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generated 2 changes to remove 1 entities in 0 ms
+2021-12-16 12:50:42.562 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Applied 2 changes in 8
+2021-12-16 12:50:42.562 [AWT-EventQueue-0] INFO  OWLEntityDeleter    
+2021-12-16 13:02:31.884 [pool-28-thread-1] INFO  OntologySaver    Saving untitled-ontology-7
+2021-12-16 13:02:31.887 [pool-28-thread-1] INFO  OntologySaver    Saving ontology to temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology2519272470679861581
+2021-12-16 13:02:31.940 [pool-28-thread-1] INFO  OntologySaver    Copying ontology from temp file (C:\Users\lumo9\AppData\Local\Temp\temp-ontology2519272470679861581) to actual destination (C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\Ing. Conocimiento\Examen.owl)
+2021-12-16 13:02:31.963 [pool-28-thread-1] INFO  OntologySaver    Removing temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology2519272470679861581
+2021-12-16 13:02:31.981 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-7>) VersionIRI(<null>)) to file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Examen.owl in RDF/XML Syntax format
+2021-12-16 13:03:44.294 [AWT-EventQueue-0] INFO  OWLEntityDeleter    ------------------------------- Deleting entities ------------------------------
+2021-12-16 13:03:44.294 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generating changes to remove 1 entities
+2021-12-16 13:03:44.295 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generated 2 changes to remove 1 entities in 0 ms
+2021-12-16 13:03:44.301 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Applied 2 changes in 6
+2021-12-16 13:03:44.301 [AWT-EventQueue-0] INFO  OWLEntityDeleter    
+2021-12-16 13:13:01.331 [AWT-EventQueue-0] INFO  OWLEntityDeleter    ------------------------------- Deleting entities ------------------------------
+2021-12-16 13:13:01.331 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generating changes to remove 5 entities
+2021-12-16 13:13:01.332 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Generated 28 changes to remove 5 entities in 0 ms
+2021-12-16 13:13:01.349 [AWT-EventQueue-0] INFO  OWLEntityDeleter    Applied 28 changes in 17
+2021-12-16 13:13:01.349 [AWT-EventQueue-0] INFO  OWLEntityDeleter    
+2021-12-16 13:21:32.440 [AWT-EventQueue-0] INFO  OWLEditorKit    ------------------------ Saving Workspace and Ontologies -----------------------
+2021-12-16 13:21:32.441 [AWT-EventQueue-0] INFO  OWLEditorKit    Will save the untitled-ontology-7 ontology because it has been modified
+2021-12-16 13:21:32.443 [pool-29-thread-1] INFO  OntologySaver    Saving untitled-ontology-7
+2021-12-16 13:21:32.446 [pool-29-thread-1] INFO  OntologySaver    Saving ontology to temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3258469007888872779
+2021-12-16 13:21:32.464 [pool-29-thread-1] INFO  OntologySaver    Copying ontology from temp file (C:\Users\lumo9\AppData\Local\Temp\temp-ontology3258469007888872779) to actual destination (C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\Ing. Conocimiento\Examen.owl)
+2021-12-16 13:21:32.519 [pool-29-thread-1] INFO  OntologySaver    Removing temp file: C:\Users\lumo9\AppData\Local\Temp\temp-ontology3258469007888872779
+2021-12-16 13:21:32.534 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-7>) VersionIRI(<null>)) to file:/C:/Users/lumo9/Documents/TIC'S%20(Ahora%20si%20acabo%20la%20carrera%20xD)/7°%20Semestre/Ing.%20Conocimiento/Examen.owl in RDF/XML Syntax format
+2021-12-16 13:21:32.646 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 13:21:32.648 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 13:21:32.650 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 13:21:32.652 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 13:21:32.653 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 13:21:32.655 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 13:21:32.656 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 13:21:32.657 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 13:21:32.659 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 13:21:32.659 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 13:22:22.332 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 13:22:22.336 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 13:22:22.337 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 13:22:22.338 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 13:22:22.340 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 13:22:22.341 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 13:22:22.343 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 13:22:22.345 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 13:22:22.347 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 13:22:22.347 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 13:22:22.349 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 13:22:22.350 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 13:22:22.352 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 13:22:22.359 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 13:22:22.359 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 13:22:22.360 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 13:22:22.361 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 13:22:22.364 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 13:22:22.367 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 13:22:22.371 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 13:22:22.717 [Close OSGi Session] INFO  Launcher    ----------------------- Shutting down Protege -----------------------
+2021-12-16 13:22:22.741 [Close OSGi Session] INFO  Launcher    Cleaning up temporary directories
+2021-12-16 19:21:47.370 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 19:21:47.424 [main] INFO  Launcher    **                                  Protege                                   **
+2021-12-16 19:21:47.424 [main] INFO  Launcher    ********************************************************************************
+2021-12-16 19:21:47.425 [main] INFO  Launcher    
+2021-12-16 19:21:47.425 [main] INFO  Launcher    ----------------- Initialising and Starting the OSGi Framework -----------------
+2021-12-16 19:21:47.425 [main] INFO  Launcher    FrameworkFactory Class: org.apache.felix.framework.FrameworkFactory
+2021-12-16 19:21:47.428 [main] INFO  Launcher    
+2021-12-16 19:21:48.366 [main] INFO  Launcher    The OSGi framework has been initialised
+2021-12-16 19:21:52.639 [main] INFO  Launcher    ------------------------------- Starting Bundles -------------------------------
+2021-12-16 19:21:52.640 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 19:21:52.640 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 19:21:52.641 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 19:21:52.642 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 19:21:52.642 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 19:21:52.642 [main] INFO  Launcher    Starting bundle org.apache.commons.io
+2021-12-16 19:21:52.643 [main] INFO  Launcher    Starting bundle com.google.guava
+2021-12-16 19:21:52.644 [main] INFO  Launcher    Starting bundle com.googlecode.javaewah.JavaEWAH
+2021-12-16 19:21:52.644 [main] INFO  Launcher    Starting bundle org.jsr-305
+2021-12-16 19:21:52.645 [main] INFO  Launcher    Starting bundle jul.to.slf4j
+2021-12-16 19:21:52.645 [main] INFO  Launcher    Starting bundle log4j.over.slf4j
+2021-12-16 19:21:52.646 [main] INFO  Launcher    Starting bundle ch.qos.logback.classic
+2021-12-16 19:21:52.646 [main] INFO  Launcher    Starting bundle ch.qos.logback.core
+2021-12-16 19:21:52.647 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.aopalliance
+2021-12-16 19:21:52.647 [main] INFO  Launcher    Starting bundle org.apache.servicemix.bundles.javax-inject
+2021-12-16 19:21:52.647 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.common
+2021-12-16 19:21:52.647 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.registry
+2021-12-16 19:21:52.647 [main] INFO  Launcher    Starting bundle org.eclipse.equinox.supplement
+2021-12-16 19:21:52.648 [main] INFO  Launcher    Starting bundle org.eclipse.jgit
+2021-12-16 19:21:52.648 [main] INFO  Launcher    Starting bundle org.semanticweb.owl.owlapi
+2021-12-16 19:21:52.649 [main] INFO  Launcher    Starting bundle org.protege.common
+2021-12-16 19:21:52.649 [main] INFO  Launcher    Starting bundle org.protege.editor.core.application
+2021-12-16 19:21:52.649 [main] INFO  Launcher    Starting bundle org.protege.editor.owl
+2021-12-16 19:21:52.650 [main] INFO  Launcher    Starting bundle slf4j.api
+2021-12-16 19:21:52.650 [main] INFO  Launcher    Starting bundle cellfie
+2021-12-16 19:21:52.651 [main] INFO  Launcher    Starting bundle code-generation
+2021-12-16 19:21:52.651 [main] INFO  Launcher    Starting bundle existentialquery
+2021-12-16 19:21:52.651 [main] INFO  Launcher    Starting bundle uk.ac.manchester.cs.owl.explanation
+2021-12-16 19:21:52.652 [main] INFO  Launcher    Starting bundle org.protege.ontograf
+2021-12-16 19:21:52.653 [main] INFO  Launcher    Starting bundle org.coode.dlquery
+2021-12-16 19:21:52.653 [main] INFO  Launcher    Starting bundle org.semanticweb.hermit
+2021-12-16 19:21:52.654 [main] INFO  Launcher    Starting bundle org.coode.browser
+2021-12-16 19:21:52.654 [main] INFO  Launcher    Starting bundle org.coode.owlviz
+2021-12-16 19:21:52.655 [main] INFO  Launcher    Starting bundle org.protege.owl.rdf
+2021-12-16 19:21:52.655 [main] INFO  Launcher    Starting bundle org.protege.editor.owl.rdf
+2021-12-16 19:21:52.656 [main] INFO  Launcher    Starting bundle swrltab-plugin
+2021-12-16 19:21:55.566 [main] INFO  Launcher    The OSGi framework has been started
+2021-12-16 19:21:55.567 [main] INFO  Launcher    
+2021-12-16 19:21:55.569 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Protege -----------------------------------
+2021-12-16 19:21:55.573 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2021-12-16 19:21:55.574 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.5.0, Build 
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    ----------------------------------- Platform -----------------------------------
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    Java: JVM 1.8.0_121-b13  Memory: 466M
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    Language: es, Country: MX
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    Framework: Apache Software Foundation (1.8) 
+2021-12-16 19:21:55.576 [FelixDispatchQueue] INFO  ProtegeApplication    OS: windows10 (10.0)
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    Processor: x86-64
+
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------------ Plugins -----------------------------------
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWL Code Generation Plug-in (2.0.0)
+2021-12-16 19:21:55.577 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Existential Query (2.0.0)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Explanation Workbench (3.0.0)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OntoGraf (2.0.3)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: DL Query (4.0.1)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: Browser View (OWLDoc) (3.0.3)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLViz (5.0.3)
+2021-12-16 19:21:55.578 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: OWLAPI RDF Library (3.0.0)
+2021-12-16 19:21:55.579 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SPARQL Query Plugin (3.0.0)
+2021-12-16 19:21:55.579 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: SWRLTab Protege 5.0+ Plugin (2.0.6)
+2021-12-16 19:21:55.579 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 19:21:58.192 [FelixDispatchQueue] INFO  ProtegeApplication    Creating and setting up empty (default) editor kit
+2021-12-16 19:21:58.209 [FelixDispatchQueue] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 19:21:59.381 [FelixDispatchQueue] INFO  OWLModelManagerImpl    Cannot generate ontology catalog for ontology at http://www.semanticweb.org/lumo9/ontologies/2021/11/untitled-ontology-8. URI scheme is not "file"
+2021-12-16 19:22:00.279 [FelixDispatchQueue] INFO  ProtegeApplication    ------------------------------- Auto-update Check ------------------------------
+2021-12-16 19:22:00.282 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update last performed: Thu Dec 16 11:11:58 CST 2021
+2021-12-16 19:22:00.304 [FelixDispatchQueue] INFO  ProtegeApplication    Auto-update has not been performed today.  Running it.
+2021-12-16 19:22:00.307 [FelixDispatchQueue] INFO  ProtegeApplication    
+2021-12-16 19:22:00.310 [Auto-Update] INFO  PluginRegistryImpl    ------------------------------ Running Auto-update -----------------------------
+2021-12-16 19:22:00.312 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-16 19:22:00.313 [Auto-Update] INFO  PluginRegistryImpl    --- Searching for plugins ---
+2021-12-16 19:22:00.332 [Auto-Update] INFO  PluginRegistryImpl    Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository
+2021-12-16 19:22:00.333 [Auto-Update] INFO  PluginRegistryImpl        Processing https://raw.githubusercontent.com/protegeproject/autoupdate/master/update-info/5.0.0/plugins.repository as a plugin registry
+2021-12-16 19:22:03.534 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/cellfie-plugin/master/update-info/protege-5/update.properties
+2021-12-16 19:22:04.119 [Auto-Update] INFO  PluginRegistryImpl            Checking https://gitlab.ifi.uzh.ch/DDIS-Public/chimp-protege-plugin/-/raw/master/update.properties
+2021-12-16 19:22:05.263 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/comodide/CoModIDE/master/update.properties
+2021-12-16 19:22:05.542 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/change-tracker/master/update-info/protege-5/update.properties
+2021-12-16 19:22:05.725 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/csv-export-plugin/master/src/main/resources/update.properties
+2021-12-16 19:22:05.952 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/dlquery/master/update-info/protege-5/update.properties
+2021-12-16 19:22:06.259 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/elk/0.4.3/update.properties
+2021-12-16 19:22:06.449 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/existentialquery/master/update-info/protege-5/update.properties
+2021-12-16 19:22:06.684 [Auto-Update] INFO  PluginRegistryImpl            Checking https://bitbucket.org/dtsarkov/factplusplus/downloads/config.autoupdate.Protege-5.0.txt
+2021-12-16 19:22:07.704 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/julianmendez/jcel/master/update-info/protege-5/update.properties
+2021-12-16 19:22:07.908 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/AOWLN/master/update.properties
+2021-12-16 19:22:08.421 [Auto-Update] INFO  PluginRegistryImpl            Checking http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties
+2021-12-16 19:22:12.329 [Auto-Update] INFO  PluginRegistryImpl                The plugin update document at http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties is missing a version string.
+2021-12-16 19:22:12.330 [Auto-Update] INFO  PluginRegistryImpl                Processing http://www.obdasystems.com/sites/default/files/download/plug-in/update.properties as a plugin registry
+2021-12-16 19:22:13.954 [AWT-EventQueue-0] INFO  OWLEditorKit    OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+2021-12-16 19:22:14.603 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/matrix/master/etc/update.matrix.properties
+2021-12-16 19:22:15.167 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/ontograf/master/update-info/protege-5/update.properties
+2021-12-16 19:22:15.614 [Auto-Update] INFO  PluginRegistryImpl            Checking http://isbi.aau.at/ontodebug/update.properties
+2021-12-16 19:22:16.805 [Auto-Update] INFO  PluginRegistryImpl            Checking https://kbss.felk.cvut.cz/tools/owlhierarchy/update.properties
+2021-12-16 19:22:17.542 [Auto-Update] INFO  PluginRegistryImpl                The plugin document could not be loaded due to a network error: SSLHandshakeException, sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-12-16 19:22:17.542 [Auto-Update] INFO  PluginRegistryImpl                Processing https://kbss.felk.cvut.cz/tools/owlhierarchy/update.properties as a plugin registry
+2021-12-16 19:22:18.155 [Auto-Update] INFO  PluginRegistryImpl                    Cannot read plugin registry at https://kbss.felk.cvut.cz/tools/owlhierarchy/update.properties.  Reason: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-12-16 19:22:18.175 [Auto-Update] INFO  PluginRegistryImpl            Checking https://github.com/ontop/ontop/raw/master/client/protege/update.properties
+2021-12-16 19:22:19.162 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/rdf-library/master/update-info/protege-5/update.properties
+2021-12-16 19:22:19.398 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owl-diff/master/update-info/protege-5/update.properties
+2021-12-16 19:22:19.601 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/co-ode-owl-plugins/owldoc/master/update-info/protege-5/update.properties
+2021-12-16 19:22:19.879 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/owlviz/master/update-info/protege-5/update.properties
+2021-12-16 19:22:20.300 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository
+2021-12-16 19:22:20.300 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/plugins.repository as a plugin registry
+2021-12-16 19:22:20.595 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/Complexible/pellet/master/protege/plugin/update.properties
+2021-12-16 19:22:20.799 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/autoupdate/master/snap-sparql-query/update-info/protege-5/update.properties
+2021-12-16 19:22:21.020 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/KITE-Cloud/SRE/master/update.properties
+2021-12-16 19:22:21.215 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/sparql-query-plugin/master/update-info/protege-5/update.properties
+2021-12-16 19:22:21.404 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/protegeproject/swrltab-plugin/master/update-info/protege-5/update.properties
+2021-12-16 19:22:21.647 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/OWLAx/master/update.properties
+2021-12-16 19:22:21.827 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/md-k-sarker/ROWL/master/update.properties
+2021-12-16 19:22:22.043 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/owlcollab/protege-obo-plugin/master/update.properties
+2021-12-16 19:22:22.229 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/geneontology/protege-taxon-constraints/master/update.properties
+2021-12-16 19:22:22.547 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository
+2021-12-16 19:22:22.547 [Auto-Update] INFO  PluginRegistryImpl                Processing https://raw.githubusercontent.com/onor13/odase.protege.plugins.repository/master/odase.plugins.repository as a plugin registry
+2021-12-16 19:22:22.725 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.propertiesInDomainClass/master/update.properties
+2021-12-16 19:22:22.909 [Auto-Update] INFO  PluginRegistryImpl                    Checking https://raw.githubusercontent.com/onor13/odase.protege.plugin.individualPropertiesContextualAssertions/master/update.properties
+2021-12-16 19:22:23.095 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/NJITSABOC/oaf-protege/OAFSummarizationPlugin/update-info/protege-5/update.properties
+2021-12-16 19:22:23.359 [Auto-Update] INFO  PluginRegistryImpl            Checking https://raw.githubusercontent.com/fekaputra/shacl-plugin/master/update-info/protege-5/update.properties
+2021-12-16 19:22:23.877 [Auto-Update] INFO  PluginRegistryImpl    
+2021-12-16 19:22:50.881 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    ------------------------------- Loading Ontology -------------------------------
+2021-12-16 19:22:50.882 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading ontology from file:/C:/Users/lumo9/Downloads/Pizzeria.owl
+2021-12-16 19:22:51.129 [pool-26-thread-1] INFO  OntologyLoader    Finished loading file:/C:/Users/lumo9/Downloads/Pizzeria.owl
+2021-12-16 19:22:51.213 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading for ontology and imports closure successfully completed in 331 ms
+2021-12-16 19:22:51.218 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    
+2021-12-16 19:22:51.709 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 19:22:51.796 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 19:22:51.801 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 19:22:51.804 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 19:22:51.806 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 19:22:51.808 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 19:22:51.810 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 19:22:51.811 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 19:22:51.815 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 19:22:51.816 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 19:22:51.818 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 19:22:51.820 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 19:22:51.821 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 19:22:51.822 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 19:22:51.824 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 19:22:51.825 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 19:22:51.826 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 19:22:51.828 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 19:22:51.829 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 19:22:51.836 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 20:01:23.571 [AWT-EventQueue-0] INFO  OWLEditorKit    ---------------------------- Disposing of Workspace ----------------------------
+2021-12-16 20:01:23.578 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'OntoGraf' tab
+2021-12-16 20:01:23.580 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Individuals by class' tab
+2021-12-16 20:01:23.581 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Classes' tab
+2021-12-16 20:01:23.594 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Data properties' tab
+2021-12-16 20:01:23.597 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Entities' tab
+2021-12-16 20:01:23.598 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Object properties' tab
+2021-12-16 20:01:23.600 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'DL Query' tab
+2021-12-16 20:01:23.603 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved tab state for 'Active ontology' tab
+2021-12-16 20:01:23.605 [AWT-EventQueue-0] INFO  TabbedWorkspace    Saved workspace
+2021-12-16 20:01:23.612 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'OntoGraf' tab
+2021-12-16 20:01:23.614 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Individuals by class' tab
+2021-12-16 20:01:23.616 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Classes' tab
+2021-12-16 20:01:23.617 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Data properties' tab
+2021-12-16 20:01:23.618 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Entities' tab
+2021-12-16 20:01:23.620 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Object properties' tab
+2021-12-16 20:01:23.623 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'DL Query' tab
+2021-12-16 20:01:23.625 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of 'Active ontology' tab
+2021-12-16 20:01:23.626 [AWT-EventQueue-0] INFO  TabbedWorkspace    Disposed of workspace
+2021-12-16 20:01:23.631 [AWT-EventQueue-0] INFO  OWLEditorKit    
+2021-12-16 20:01:23.880 [Close OSGi Session] INFO  Launcher    ----------------------- Shutting down Protege -----------------------
+2021-12-16 20:01:23.880 [Close OSGi Session] INFO  Launcher    Cleaning up temporary directories

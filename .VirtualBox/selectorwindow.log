@@ -1,0 +1,20 @@
+00:00:09.963701 VirtualBox GUI VM Selector Window 6.1.30 r148432 win.amd64 (Nov 22 2021 15:15:30) release log
+00:00:09.963703 Log opened 2022-01-07T05:40:05.680885300Z
+00:00:09.963703 Build Type: release
+00:00:09.963706 OS Product: Windows 10
+00:00:09.963706 OS Release: 10.0.19042
+00:00:09.963707 OS Service Pack: 
+00:00:09.980814 DMI Product Name: 81VV
+00:00:09.987054 DMI Product Version: Lenovo IdeaPad S340-14IIL
+00:00:09.987070 Firmware type: UEFI
+00:00:09.987466 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:09.987482 Host RAM: 7967MB (7.7GB) total, 951MB available
+00:00:09.987487 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:09.987488 Process ID: 12512
+00:00:09.987488 Package type: WINDOWS_64BITS_GENERIC
+00:00:10.024795 Qt version: 5.6.2
+00:00:10.285856 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:10.285949 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:25.385687 refreshCertificates/#3: Found 1/96 SSL certs we/you trust (previously 0/0).
+00:03:58.182971 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:40.226939 GUI: UIMediumEnumerator: Medium-enumeration finished!

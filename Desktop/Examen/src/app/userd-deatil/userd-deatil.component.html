@@ -1,0 +1,34 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <!-- <ion-icon slot="start" ios="ios-arrow-back" md="ios-arrow-back" class="icon"
+                      [routerLink]="['/tabs/tab1']" routerLinkActive="router-link-active"></ion-icon> -->
+
+    <ion-title>Informacion del Usuario</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar> 
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-card>
+    <!-- <img src="./madison.jpg" /> -->
+    <ion-card-header>
+      <ion-card-title>Nombre: {{usuario.name}}</ion-card-title>
+      <ion-card-subtitle>nickname: {{usuario.username}}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Correo: {{usuario.email}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Telefono: {{usuario.phone}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>WEB: {{usuario.website}}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

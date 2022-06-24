@@ -1,0 +1,1045 @@
+
+
+------------------------------------------------------------
+Application started
+21:32:31.218: (I) 17684: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+21:32:31.218: (I) 17684: ice.systeminfo      : Kernel version: "10.0.19042"
+21:32:31.218: (I) 17684: ice.systeminfo      : CPU architecture: "x86_64"
+21:32:31.218: (I) 17684: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+21:32:31.218: (I) 17684: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+21:32:31.218: (I) 17684: ice.systeminfo      : BuildVersion: "2.3.8"
+21:32:31.218: (I) 17684: ice.systeminfo      : DisplayVersion: "2.38"
+21:32:31.218: (I) 17684: ice.systeminfo      : PID: 16544
+21:32:31.218: (I) 17684: ice.systeminfo      : Main thread id: 17684
+21:32:31.218: (I) 17684: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+21:32:31.218: (I) 17684: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+21:32:31.218: (I) 17684: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+21:32:31.218: (I) 17684: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+21:32:31.218: (I) 17684: ice.systeminfo      : Overrided QT_DEVICE_PIXEL_RATIO found: "auto"
+21:32:31.218: (I) 17684: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 144, phyDpi: 158.196, log/phy: 91%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1020}
+21:32:31.218: (I) 17684: ice.systeminfo      : 
+21:32:31.265: (I) 17684: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "es_MX"
+21:32:31.304: (I) 17684: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "es_ES"
+21:32:31.325: (I) 17684: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+21:32:31.325: (I) 17684: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+21:32:35.895: (I) 17684: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+21:32:35.895: (I) 17684: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+21:32:35.935: (I) 17684: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists, connect to iceUi->mainWindowCreated()
+21:32:36.995: (I) 17684: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 1100 msec
+21:32:36.996: (I) 17684: app.app             : Application::init                       : Entering 'Init app'
+21:32:38.036: (I) 17684: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+21:32:38.107: (I) 17684: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+21:32:38.107: (I) 17684: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+21:32:38.107: (I) 17684: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+21:32:38.156: (I) 17684: ui.player           : Player::Player                          :     Entering 'Create player'
+21:32:38.246: (I) 17684:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) Iris(R) Plus Graphics"
+21:32:38.326: (I) 17684:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+21:32:38.326: (I) 17684:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) Iris(R) Plus Graphics"
+21:32:38.326: (I) 17684:                     : Player::Player()                        :       --- mediaprocessor context ---
+21:32:38.326: (I) 17684:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+21:32:38.326: (I) 17684:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+21:32:38.327: (I) 17684:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+21:32:38.327: (I) 17684:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+21:32:38.327: (I) 17684:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+21:32:39.240: (I) 17684:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+21:32:39.241: (I) 17684:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+21:32:39.241: (I) 17684:                     : audiorender::applySettingsFromSink()    :       		channel count: 8
+21:32:39.241: (I) 17684:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+21:32:39.241: (I) 17684:                     : audiorender::applySettingsFromSink()    :       		channel mask: 1599
+21:32:39.241: (I) 17684:                     : audiorender::applySettingsFromSink()    :       		block size: 32
+21:32:39.344: (I) 17684: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1188
+21:32:39.497: (I) 17684:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+21:32:39.979: (I) 17684: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(260,77 1400x865)
+21:32:39.980: (I) 17684: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1873
+21:32:40.130: (W) 17684:                     : LicenseService::loadLicenseInfo()       :   License file not found: "C:\\Users\\lumo9\\AppData\\Local\\Icecream\\Icecream Video Editor\\license.lic"
+21:32:40.130: (I) 17684: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 3134
+21:32:40.130: (I) 17684: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+21:32:40.130: (I) 17684: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+21:32:40.130: (I) 17684: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/lumo9/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+21:32:40.173: (I) 17684: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+21:32:40.176: (I) 11904: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+21:32:40.176: (I) 17684: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x2e3eb867520, name="MainWindow")
+21:32:40.178: (I) 11904: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 2
+21:32:40.457: (I) 17684: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+21:32:40.457: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+21:32:40.457: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 3
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+21:32:40.460: (I) 17684:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:32:40.460: (I) 17684:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:32:40.460: (I) 17684:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:32:40.460: (I) 17684:                     : mediaprocessor::setDocument()           :       Process setDocument()
+21:32:40.460: (I) 17684:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+21:32:40.460: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+21:32:40.461: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+21:32:40.461: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+21:32:40.461: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+21:32:40.461: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+21:32:40.461: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+21:32:40.462: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+21:32:40.462: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+21:32:40.462: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+21:32:40.462: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+21:32:40.462: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 2
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+21:32:40.463: (I) 17684: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+21:32:40.463: (I) 17684: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 290
+21:32:40.463: (I) 17684: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 333
+21:32:40.463: (I) 20908:                     : main::lambda()                          : run preview cache storage check...
+21:32:40.463: (I) 20908:                     : main::lambda()                          : preview cache storage check done
+21:32:40.464: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 3686400 total count 1"
+21:32:40.468: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 5760000 total count 2"
+21:32:40.540: (I) 17684: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+21:32:40.540: (I) 17684: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+21:32:40.540: (I) 17684: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+21:32:45.137: (I) 17684: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.38&pid=9&mh=0e671d01b7284d5f5f03e4e8ae844ba4&h=3bbd79c1bd0d8cb02bec89f2f84aee1e"
+21:32:45.467: (I) 17684: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.55"
+21:32:45.467: (I) 17684: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.55" current version: 2.38 result: 17
+21:32:45.468: (I) 17684: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Emit newVersionAvalible: "2.55"
+21:32:45.495: (I) 17684: ice.updater         : IceApplication::initUpdateChecker::lambd: Ask about new version
+21:33:02.045: (I) 10324:                     : main::lambda()                          : Dxdiag tool completed with status : QProcess::ExitStatus(NormalExit) . Exit code:  0 . Error code:  QProcess::ProcessError(UnknownError)
+21:33:44.921: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:33:44.923: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:33:47.150: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+21:33:47.151: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:33:47.164: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:33:47.164: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 13
+21:33:47.181: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 31
+21:33:47.213: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 7833600 total count 3"
+21:33:47.213: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 9907200 total count 4"
+21:33:48.596: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:33:49.418: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:00.717 (7178949)]slider: [00:00.703 (7031658)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:33:58.958: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:33:58.960: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:34:03.000: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+21:34:03.000: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:34:03.011: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:34:03.011: (I) 26608: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 11
+21:34:03.033: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 33
+21:34:06.723: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:34:09.773: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:03.037 (30375786)]slider: [00:02.991 (29917453)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:35:09.554: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:35:09.556: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:35:10.844: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+21:35:10.846: (I)  9696: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:35:10.858: (I)  9696: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:35:10.858: (I)  9696: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 12
+21:35:10.872: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 28
+21:35:12.073: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:35:15.115: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:03.030 (30302869)]slider: [00:02.984 (29840162)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:35:23.755: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {c7882d3d-8cb0-408c-93cf-bbef0c2d1fb8} )
+21:35:23.755: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:23.755: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:23.757: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Text, prev Prop_General, docClip {c7882d3d-8cb0-408c-93cf-bbef0c2d1fb8}
+21:35:27.505: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:30.941: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:30.941: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:30.941: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:30.945: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:30.977: (W) 19144:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+21:35:31.088: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11980800 total count 5"
+21:35:31.107: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:31.109: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:31.176: (I) 19144:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 14054400 total count 6"
+21:35:31.238: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:31.240: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:31.840: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:31.842: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.440: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.443: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.640: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.643: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.852: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.856: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.974: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:32.976: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:33.204: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:33.208: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:35.023: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:35.025: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:37.679: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:37.681: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.046: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.049: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.470: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.472: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.733: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:38.735: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.483: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.486: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.772: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.776: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.920: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:39.923: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.092: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.094: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.197: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.200: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.308: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:40.310: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:35:42.364: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {c7882d3d-8cb0-408c-93cf-bbef0c2d1fb8} )
+21:35:42.364: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:37:56.749: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:37:56.749: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:37:59.793: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:03.027 (30272036)]slider: [00:02.980 (29807870)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:37:59.795: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:38:08.853: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:02.999 (29990000)]slider: [00:02.999 (29990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:38:08.853: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:38:10.870: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:05.003 (50030802)]slider: [00:04.955 (49554136)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:38:10.872: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:38:13.414: (I) 17684: ui.player           : Player::onPlay()                        : Play from start: clk: [00:04.999 (49990000)]slider: [00:04.999 (49990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:38:13.415: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:38:18.689: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:05.025 (50257006)]slider: [00:04.963 (49631590)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:38:18.691: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:38:37.040: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:38:37.042: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:38:38.621: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+21:38:38.622: (I) 15060: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:38:38.627: (I) 15060: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:38:38.627: (I) 15060: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 5
+21:38:38.652: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 31
+21:38:48.067: (I) 15060:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:38:48.624: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:38:48.625: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 1
+21:38:56.829: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+21:38:57.069: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:38:57.628: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:38:57.628: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:39:07.656: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:10.010 (100106094)]slider: [00:09.962 (99623595)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:39:07.659: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:39:11.812: (I) 17684: ui.player           : Player::onPlay()                        : Play from start: clk: [00:09.999 (99990000)]slider: [00:09.999 (99990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:39:11.812: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:39:22.016: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:10.030 (100304427)]slider: [00:09.982 (99828178)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:39:22.018: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:39:26.343: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+21:39:26.344: (I) 12364: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:39:26.348: (I) 12364: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:39:26.349: (I) 12364: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 5
+21:39:26.384: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 41
+21:39:26.414: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:39:48.304: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:39:48.304: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:39:50.538: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:39:50.538: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:40:17.241: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:40:17.241: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:40:25.266: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:08.010 (80108833)]slider: [00:07.982 (79827167)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:40:25.269: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:40:26.700: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+21:40:26.701: (I) 20560: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:40:26.712: (I) 20560: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:40:26.712: (I) 20560: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 11
+21:40:26.738: (I) 17260:                     : mfreaderaudio::open()                   :   open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:40:26.742: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 42
+21:40:31.386: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:40:31.386: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:40:49.486: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:18.019 (180198053)]slider: [00:17.972 (179720970)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:40:49.489: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:41:04.151: (I) 17684: ui.player           : Player::onPlay()                        : Play from start: clk: [00:14.999 (149990000)]slider: [00:14.999 (149990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:41:04.152: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:41:04.197: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:41:19.346: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:15.011 (150110599)]slider: [00:14.963 (149637266)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:41:19.356: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:41:30.988: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:41:30.989: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 1
+21:41:32.899: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+21:41:32.899: (I) 17624: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:41:32.904: (I) 17624: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:41:32.905: (I) 17624: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+21:41:32.931: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 32
+21:41:37.419: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:42:07.312: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:42:07.313: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 1
+21:42:08.473: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+21:42:08.474: (I) 21708: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:42:08.480: (I) 21708: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:42:08.480: (I) 21708: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+21:42:08.504: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 31
+21:42:12.696: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {25915017-fe5d-489f-85ab-7774303b8fb9} )
+21:42:12.696: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:12.696: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:12.698: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Text, docClip {25915017-fe5d-489f-85ab-7774303b8fb9}
+21:42:14.396: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.411: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.428: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.448: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.462: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.477: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.492: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.505: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.521: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.534: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.561: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.570: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.578: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:14.594: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.396: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.408: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.423: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.439: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.468: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.477: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.489: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.503: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.519: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.542: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.564: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.581: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.581: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.606: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.618: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.631: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.640: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.655: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.681: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.714: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.737: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.749: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.760: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:15.782: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.034: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.051: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.070: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.087: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.112: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.129: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.145: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.159: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.178: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.196: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.232: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.260: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.273: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.288: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:16.368: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:17.019: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:17.032: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:17.055: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:17.070: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:42:18.204: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {25915017-fe5d-489f-85ab-7774303b8fb9} )
+21:42:18.204: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:43:55.349: (I) 12112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+21:43:55.351: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:43:55.353: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:43:57.343: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+21:43:57.343: (I) 12112: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:43:57.348: (I) 12112: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:43:57.348: (I) 12112: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 5
+21:43:57.370: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 27
+21:43:57.400: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+21:44:02.314: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:14.570 (145700000)]slider: [00:14.570 (145700000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:44:02.314: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:44:14.785: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:27.029 (270298347)]slider: [00:26.982 (269828556)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:44:14.788: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:44:25.607: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:15.000 (150000000)]slider: [00:15.000 (150000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:44:25.607: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:44:39.666: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:29.040 (290402072)]slider: [00:28.993 (289939157)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:44:39.670: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:44:42.535: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:44:43.758: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:44:43.758: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:44:57.810: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+21:45:12.802: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:29.026 (290267255)]slider: [00:28.979 (289799339)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:45:12.806: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:45:18.214: (I) 17684: ui.player           : Player::onPlay()                        : Play from start: clk: [00:28.499 (284990000)]slider: [00:28.499 (284990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:45:18.215: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:45:18.265: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+21:45:19.391: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+21:45:30.700: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:28.540 (285400449)]slider: [00:28.493 (284930659)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:45:30.703: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:46:57.068: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:46:57.071: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+21:46:58.559: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 3'
+21:46:58.560: (I) 22524: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:46:58.565: (I) 22524: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:46:58.566: (I) 22524: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+21:46:58.591: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 3'. Elapsed time: 32
+21:48:19.099: (I) 18760:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:48:19.102: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:48:19.104: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:48:21.509: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+21:48:21.509: (I) 18760: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:48:21.515: (I) 18760: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:48:21.516: (I) 18760: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 7
+21:48:21.545: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 36
+21:48:21.579: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:48:30.524: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:28.500 (285000000)]slider: [00:28.500 (285000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:30.524: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:48:41.438: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:39.402 (394026705)]slider: [00:39.367 (393678997)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:41.441: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:48:42.664: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:39.366 (393666558)]slider: [00:39.366 (393666558)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:42.664: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:48:47.322: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:44.013 (440137319)]slider: [00:43.967 (439671278)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:47.325: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:48:53.828: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:43.999 (439990000)]slider: [00:43.999 (439990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:53.828: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:48:54.382: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:44.535 (445358742)]slider: [00:44.488 (444884159)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:54.385: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:48:54.409: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:48:55.688: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:48:56.843: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:41.115 (411150000)]slider: [00:41.115 (411150000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:48:56.844: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:49:00.259: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [00:44.518 (445184114)]slider: [00:44.471 (444719114)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:49:00.261: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:49:00.299: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:50:06.796: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:50:06.799: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+21:50:07.828: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 4'
+21:50:07.828: (I) 19120: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:50:07.835: (I) 19120: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:50:07.836: (I) 19120: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 8
+21:50:07.839: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 4'. Elapsed time: 11
+21:50:07.893: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:51:17.968: (I) 10772:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:51:17.971: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:51:17.972: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 1
+21:51:20.165: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 3'
+21:51:20.166: (I) 10772: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:51:20.172: (I) 10772: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:51:20.172: (I) 10772: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+21:51:20.204: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 3'. Elapsed time: 39
+21:51:20.220: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:51:21.566: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:51:21.597: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:51:27.680: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:51:27.714: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:51:27.753: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+21:51:27.777: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:51:29.275: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [00:44.500 (445000000)]slider: [00:44.500 (445000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:51:29.275: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:52:02.326: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [01:17.530 (775301567)]slider: [01:17.483 (774832818)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:52:02.391: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:52:02.438: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:52:07.015: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+21:52:07.063: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:52:07.399: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:52:08.196: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [01:14.830 (748300000)]slider: [01:14.830 (748300000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:52:08.196: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:52:10.922: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [01:17.536 (775363500)]slider: [01:17.490 (774906417)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:52:10.924: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:52:10.960: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:54:12.881: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:54:12.883: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:54:14.189: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 5'
+21:54:14.190: (I) 20320: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:54:14.196: (I) 20320: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:54:14.196: (I) 20320: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+21:54:14.226: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 5'. Elapsed time: 37
+21:54:14.245: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:54:19.189: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {e0b8afd7-68d1-4cc0-9068-d2da03235d98} )
+21:54:19.190: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:19.190: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:19.193: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {e0b8afd7-68d1-4cc0-9068-d2da03235d98}
+21:54:25.619: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.633: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.633: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.666: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.680: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.709: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.720: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.734: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.750: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.777: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.789: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.817: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.828: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.851: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.917: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.932: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.947: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.960: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:25.985: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:26.002: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:26.017: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.295: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.317: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.332: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.342: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.883: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.897: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.930: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.959: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:28.970: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.005: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.026: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.044: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.066: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.082: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.093: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.121: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.180: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:29.251: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.358: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.465: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.496: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.507: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.961: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:30.983: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:31.081: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:31.096: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:34.282: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {e0b8afd7-68d1-4cc0-9068-d2da03235d98} )
+21:54:34.282: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:54:34.335: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:54:39.415: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:56:05.600: (I) 23140:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+21:56:05.602: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:56:05.604: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+21:56:07.769: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 4'
+21:56:07.770: (I) 23140: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:56:07.777: (I) 23140: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:56:07.777: (I) 23140: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 7
+21:56:07.802: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 4'. Elapsed time: 33
+21:56:07.808: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+21:56:08.645: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:56:08.670: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+21:56:14.155: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:56:14.177: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+21:56:14.253: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+21:56:14.275: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+21:56:15.511: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [01:17.500 (775000000)]slider: [01:17.500 (775000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:56:15.511: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:56:43.633: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [01:45.539 (1055396021)]slider: [01:45.492 (1054928939)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:56:43.636: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:57:40.481: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:57:40.485: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 4
+21:57:41.953: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 6'
+21:57:41.954: (I)  6276: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:57:41.961: (I)  6276: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:57:41.961: (I)  6276: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 7
+21:57:41.987: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 6'. Elapsed time: 34
+21:58:50.613: (I) 26264:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+21:58:50.617: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+21:58:50.620: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+21:58:53.225: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 5'
+21:58:53.226: (I) 26264: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+21:58:53.234: (I) 26264: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+21:58:53.234: (I) 26264: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 8
+21:58:53.257: (I) 17260:                     : mfreaderaudio::open()                   :   open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+21:58:53.264: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 5'. Elapsed time: 39
+21:58:54.583: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [01:45.446 (1054460000)]slider: [01:45.446 (1054460000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:58:54.584: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:59:22.751: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [02:13.531 (1335316855)]slider: [02:13.484 (1334847064)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:59:22.753: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+21:59:29.320: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+21:59:30.179: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [02:07.747 (1277470000)]slider: [02:07.747 (1277470000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:59:30.180: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+21:59:34.969: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [02:12.519 (1325196592)]slider: [02:12.472 (1324728676)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+21:59:34.971: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:03:19.387: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:03:19.390: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+22:03:20.504: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 7'
+22:03:20.506: (I)  9644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:03:20.514: (I)  9644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:03:20.514: (I)  9644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 8
+22:03:20.518: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 7'. Elapsed time: 14
+22:04:43.898: (I) 25384:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:04:43.902: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:04:43.905: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+22:04:49.503: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 6'
+22:04:49.504: (I) 25384: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:04:49.514: (I) 25384: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:04:49.514: (I) 25384: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 10
+22:04:49.544: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 6'. Elapsed time: 41
+22:04:49.547: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:04:57.974: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [02:12.500 (1325000000)]slider: [02:12.500 (1325000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:04:57.974: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:05:33.078: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [02:47.522 (1675224455)]slider: [02:47.475 (1674751539)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:05:33.082: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:07:56.654: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:07:56.657: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 3
+22:07:58.561: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 8'
+22:07:58.561: (I) 23652: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:07:58.569: (I) 23652: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:07:58.570: (I) 23652: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 9
+22:07:58.602: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 8'. Elapsed time: 41
+22:08:01.746: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5bbe0c45-7dbe-484d-8ad5-342a25a73c69} )
+22:08:01.746: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:01.746: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:01.748: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {5bbe0c45-7dbe-484d-8ad5-342a25a73c69}
+22:08:06.877: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:07.985: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:09.404: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:09.511: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:08:14.654: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:10:49.959: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5bbe0c45-7dbe-484d-8ad5-342a25a73c69} )
+22:10:49.959: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:10:57.915: (I) 13404:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:10:57.922: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:10:57.932: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 10
+22:11:12.412: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [02:47.500 (1675000000)]slider: [02:47.500 (1675000000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:12.412: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:11:25.551: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:00.624 (1806240420)]slider: [03:00.600 (1806005837)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:25.552: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:11:26.621: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 7'
+22:11:26.622: (I) 13404: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:11:26.633: (I) 13404: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:11:26.633: (I) 13404: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 11
+22:11:26.658: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 7'. Elapsed time: 37
+22:11:26.699: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:11:28.544: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [02:47.418 (1674180000)]slider: [02:47.418 (1674180000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:28.544: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:11:35.990: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [02:54.782 (1747820303)]slider: [02:54.769 (1747691345)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:35.993: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:11:39.567: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [02:54.751 (1747513260)]slider: [02:54.751 (1747513260)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:39.567: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:11:52.370: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:07.535 (1875354519)]slider: [03:07.487 (1874878686)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:11:52.372: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:11:52.425: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:12:11.438: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 9'
+22:12:11.439: (I) 14980: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:12:11.445: (I) 14980: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:12:11.445: (I) 14980: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+22:12:11.472: (I) 17684: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 9'. Elapsed time: 34
+22:12:11.503: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:12:17.624: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {0bbfc97c-8903-4015-a45e-aacde1b0885f} )
+22:12:17.625: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:17.625: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:17.626: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Text, prev Prop_Crop, docClip {0bbfc97c-8903-4015-a45e-aacde1b0885f}
+22:12:54.122: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:54.122: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:54.122: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:54.125: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:58.008: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:58.010: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:58.476: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:12:58.479: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:13:15.801: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:13:15.804: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:13:19.796: (I) 17684: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {0bbfc97c-8903-4015-a45e-aacde1b0885f} )
+22:13:19.797: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:13:49.479: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [03:09.000 (1890000001)]slider: [03:09.000 (1890000001)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:13:49.479: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:13:53.082: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:12.519 (1925199114)]slider: [03:12.472 (1924724531)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:13:53.084: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:13:58.746: (I) 17684: ui.player           : Player::onPlay()                        : Play from start: clk: [03:11.499 (1914990000)]slider: [03:11.499 (1914990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:13:58.748: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:13:58.774: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:14:00.000: (I) 17260:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:14:07.748: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:11.521 (1915218226)]slider: [03:11.475 (1914753435)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:14:07.751: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:14:13.688: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:14:14.135: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:14:15.455: (I) 17684: ui.player           : Player::onPlay()                        : Play: clk: [03:09.679 (1896790000)]slider: [03:09.679 (1896790000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:14:15.455: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:14:16.302: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.515 (1905152695)]slider: [03:10.468 (1904685404)], state: Player::State(Playing), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:14:16.305: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:14:44.186: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:14:44.187: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:14:44.192: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 5
+22:15:22.512: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:15:22.588: (I) 17420:                     : threadProc()                            : Encoder thread id:  17420
+22:15:22.588: (I) 17420:                     : threadProc()                            : --- start encoding thread ---
+22:15:22.617: (I) 17420:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:15:22.617: (I) 17420:                     : threadProc()                            : --- encoder context ---
+22:15:22.617: (I) 17420:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:15:22.617: (I) 17420:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:15:22.617: (I) 17420:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:15:22.617: (I) 17420:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:15:22.617: (I) 17420:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:15:22.617: (I) 17420:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:15:22.617: (I) 17420:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:15:22.617: (I) 17420:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:15:22.617: (I) 17420:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:15:22.617: (I) 17420:                     : threadProc()                            : encoding mediaprocessor init done
+22:15:22.619: (I) 17420:                     : threadProc()                            : output format:  mp4
+22:15:22.619: (I) 17420:                     : threadProc()                            : quality:  3
+22:15:22.619: (I) 17420:                     : threadProc()                            : frame size:  "1920x1080"
+22:15:22.619: (I) 17420:                     : threadProc()                            : document duration:  1905000000
+22:15:22.619: (I) 17420:                     : threadProc()                            : clip count:  10
+22:15:22.619: (I) 17420:                     : threadProc()                            : audio clip count:  8
+22:15:22.619: (I) 17420:                     : threadProc()                            : use audio loop:  false
+22:15:22.619: (I) 17420:                     : threadProc()                            : text count:  1
+22:15:22.619: (I) 17420:                     : threadProc()                            : most used text:  "Bloom"
+22:15:22.619: (W) 17420:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:15:22.619: (I) 17420:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\propuesta h20 lerma.mp4"
+22:15:22.654: (I) 13100:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 14745600 total count 1"
+22:15:22.663: (I) 17420:                     : threadProc()                            : --- encoding parameters ---
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : use MF encoder
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : width:  1920
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : height:  1080
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : fps:  30
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : use hw:  true
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : video bitrate:  17418240
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : sample rate:  48000
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : channels num:  2
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : channels mask:  3
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : audio format:  0
+22:15:22.663: (I) 17420:                     : mfencoder::dumpSettings()               : bits per sample:  16
+22:15:22.663: (I) 17420:                     : threadProc()                            : profile:  2
+22:15:22.664: (I) 13100:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 23040000 total count 2"
+22:15:22.664: (I) 13100:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 31334400 total count 3"
+22:15:22.666: (I) 13100:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 39628800 total count 4"
+22:15:22.669: (W) 13100:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:15:22.674: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:15:22.694: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:15:22.694: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:15:23.139: (I) 13100:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 47923200 total count 5"
+22:15:24.181: (I) 17420:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+22:15:24.185: (I) 17420:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+22:15:24.264: (I) 17420:                     : threadProc()                            : encoder opened
+22:15:29.114: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:15:32.276: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:15:35.988: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:15:43.317: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:15:49.376: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:15:55.274: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:16:03.258: (I) 25112:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:16:11.158: (I) 17420:                     : threadProc()                            : encoder closed
+22:16:11.222: (I) 17420:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:16:11.237: (I) 17420:                     : threadProc()                            : checking encoding result...
+22:16:11.238: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:16:11.826: (W) 17420:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:16:11.826: (I) 17420:                     : threadProc()                            : encoding done
+22:16:14.123: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:16:30.497: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:16:30.497: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:16:30.502: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 5
+22:16:38.989: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:16:39.001: (I) 12040:                     : threadProc()                            : Encoder thread id:  12040
+22:16:39.001: (I) 12040:                     : threadProc()                            : --- start encoding thread ---
+22:16:39.033: (I) 12040:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:16:39.033: (I) 12040:                     : threadProc()                            : --- encoder context ---
+22:16:39.033: (I) 12040:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:16:39.033: (I) 12040:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:16:39.033: (I) 12040:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:16:39.033: (I) 12040:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:16:39.033: (I) 12040:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:16:39.033: (I) 12040:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:16:39.033: (I) 12040:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:16:39.033: (I) 12040:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:16:39.033: (I) 12040:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:16:39.033: (I) 12040:                     : threadProc()                            : encoding mediaprocessor init done
+22:16:39.035: (I) 12040:                     : threadProc()                            : output format:  mp4
+22:16:39.035: (I) 12040:                     : threadProc()                            : quality:  2
+22:16:39.035: (I) 12040:                     : threadProc()                            : frame size:  "1024x576"
+22:16:39.035: (I) 12040:                     : threadProc()                            : document duration:  1905000000
+22:16:39.035: (I) 12040:                     : threadProc()                            : clip count:  10
+22:16:39.035: (I) 12040:                     : threadProc()                            : audio clip count:  8
+22:16:39.035: (I) 12040:                     : threadProc()                            : use audio loop:  false
+22:16:39.035: (I) 12040:                     : threadProc()                            : text count:  1
+22:16:39.035: (I) 12040:                     : threadProc()                            : most used text:  "Bloom"
+22:16:39.036: (W) 12040:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:16:39.036: (I) 12040:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\Mi proyecto 1 2021-06-08_22-16-30.mp4"
+22:16:39.046: (I) 12040:                     : threadProc()                            : --- encoding parameters ---
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : use MF encoder
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : width:  1024
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : height:  576
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : fps:  30
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : use hw:  true
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : video bitrate:  2477260
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : audio bitrate:  128000
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : sample rate:  48000
+22:16:39.046: (I) 12040:                     : mfencoder::dumpSettings()               : channels num:  2
+22:16:39.047: (I) 12040:                     : mfencoder::dumpSettings()               : channels mask:  3
+22:16:39.047: (I) 12040:                     : mfencoder::dumpSettings()               : audio format:  0
+22:16:39.047: (I) 12040:                     : mfencoder::dumpSettings()               : bits per sample:  16
+22:16:39.047: (I) 12040:                     : threadProc()                            : profile:  1
+22:16:39.055: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:16:39.061: (I)  7728:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4194304 total count 1"
+22:16:39.064: (I)  7728:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6553600 total count 2"
+22:16:39.064: (I)  7728:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8912896 total count 3"
+22:16:39.065: (I)  7728:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11272192 total count 4"
+22:16:39.067: (W)  7728:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:16:39.110: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:16:39.110: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:16:39.139: (I)  7728:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 13631488 total count 5"
+22:16:39.533: (I) 12040:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+22:16:39.534: (I) 12040:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+22:16:39.570: (I) 12040:                     : threadProc()                            : encoder opened
+22:16:42.125: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:16:44.001: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:16:46.245: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:16:50.666: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:16:54.416: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:16:58.068: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:17:02.793: (I) 21032:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:17:06.695: (I) 12040:                     : threadProc()                            : encoder closed
+22:17:06.734: (I) 12040:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:17:06.754: (I) 12040:                     : threadProc()                            : checking encoding result...
+22:17:06.754: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:17:06.979: (W) 12040:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:17:06.980: (I) 12040:                     : threadProc()                            : encoding done
+22:17:09.009: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:19:29.310: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:19:29.310: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:19:29.314: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 4
+22:19:45.448: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:19:45.460: (I) 12576:                     : threadProc()                            : Encoder thread id:  12576
+22:19:45.460: (I) 12576:                     : threadProc()                            : --- start encoding thread ---
+22:19:45.487: (I) 12576:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:19:45.487: (I) 12576:                     : threadProc()                            : --- encoder context ---
+22:19:45.487: (I) 12576:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:19:45.487: (I) 12576:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:19:45.487: (I) 12576:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:19:45.487: (I) 12576:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:19:45.487: (I) 12576:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:19:45.488: (I) 12576:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:19:45.488: (I) 12576:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:19:45.488: (I) 12576:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:19:45.488: (I) 12576:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:19:45.488: (I) 12576:                     : threadProc()                            : encoding mediaprocessor init done
+22:19:45.489: (I) 12576:                     : threadProc()                            : output format:  webm
+22:19:45.489: (I) 12576:                     : threadProc()                            : quality:  1
+22:19:45.489: (I) 12576:                     : threadProc()                            : frame size:  "1024x576"
+22:19:45.489: (I) 12576:                     : threadProc()                            : document duration:  1905000000
+22:19:45.489: (I) 12576:                     : threadProc()                            : clip count:  10
+22:19:45.489: (I) 12576:                     : threadProc()                            : audio clip count:  8
+22:19:45.489: (I) 12576:                     : threadProc()                            : use audio loop:  false
+22:19:45.489: (I) 12576:                     : threadProc()                            : text count:  1
+22:19:45.489: (I) 12576:                     : threadProc()                            : most used text:  "Bloom"
+22:19:45.489: (W) 12576:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:19:45.489: (I) 12576:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\Mi proyecto 1 2021-06-08_22-19-29.mp3"
+22:19:45.490: (I) 12576:                     : threadProc()                            : --- encoding parameters ---
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : use FFMPEG encoder
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : width:  640
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : height:  480
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : fps:  25
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : video bitrate:  8000000
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : sample rate:  48000
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : audio format:  1
+22:19:45.490: (I) 12576:                     : ffmpegencoder::dumpSettings()           : profile:  0
+22:19:45.513: (I)  1860:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4194304 total count 1"
+22:19:45.515: (I)  1860:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6553600 total count 2"
+22:19:45.515: (I)  1860:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8912896 total count 3"
+22:19:45.517: (I)  1860:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11272192 total count 4"
+22:19:45.520: (W)  1860:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:19:45.572: (I)  1860:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 13631488 total count 5"
+22:19:45.593: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:19:45.593: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:19:45.767: (I) 12576:                     : threadProc()                            : encoder opened
+22:19:45.784: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:19:47.580: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:19:49.188: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:19:51.009: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:19:54.973: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:19:58.372: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:20:01.422: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:20:05.462: (I) 10576:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:20:07.843: (I) 12576:                     : threadProc()                            : encoder closed
+22:20:07.843: (I) 12576:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:20:07.895: (I) 12576:                     : threadProc()                            : checking encoding result...
+22:20:07.895: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:20:08.038: (W) 12576:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:20:08.038: (W) 12576:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:20:08.038: (I) 12576:                     : threadProc()                            : encoding done
+22:20:12.298: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:20:38.398: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:20:38.399: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:20:38.403: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 4
+22:20:55.269: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:20:55.280: (I) 25924:                     : threadProc()                            : Encoder thread id:  25924
+22:20:55.280: (I) 25924:                     : threadProc()                            : --- start encoding thread ---
+22:20:55.308: (I) 25924:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:20:55.308: (I) 25924:                     : threadProc()                            : --- encoder context ---
+22:20:55.308: (I) 25924:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:20:55.308: (I) 25924:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:20:55.309: (I) 25924:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:20:55.309: (I) 25924:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:20:55.309: (I) 25924:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:20:55.309: (I) 25924:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:20:55.309: (I) 25924:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:20:55.309: (I) 25924:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:20:55.309: (I) 25924:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:20:55.309: (I) 25924:                     : threadProc()                            : encoding mediaprocessor init done
+22:20:55.310: (I) 25924:                     : threadProc()                            : output format:  webm
+22:20:55.310: (I) 25924:                     : threadProc()                            : quality:  1
+22:20:55.310: (I) 25924:                     : threadProc()                            : frame size:  "1024x576"
+22:20:55.310: (I) 25924:                     : threadProc()                            : document duration:  1905000000
+22:20:55.310: (I) 25924:                     : threadProc()                            : clip count:  10
+22:20:55.310: (I) 25924:                     : threadProc()                            : audio clip count:  8
+22:20:55.310: (I) 25924:                     : threadProc()                            : use audio loop:  false
+22:20:55.310: (I) 25924:                     : threadProc()                            : text count:  1
+22:20:55.310: (I) 25924:                     : threadProc()                            : most used text:  "Bloom"
+22:20:55.311: (W) 25924:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:20:55.311: (I) 25924:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\Mi proyecto 1 .webm"
+22:20:55.311: (I) 25924:                     : threadProc()                            : --- encoding parameters ---
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : use FFMPEG encoder
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : width:  1024
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : height:  576
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : fps:  30
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : video bitrate:  8000000
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : sample rate:  48000
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : audio format:  1
+22:20:55.311: (I) 25924:                     : ffmpegencoder::dumpSettings()           : profile:  0
+22:20:55.311: (I) 25924:                     : Logger::write()                         : create output video stream [OK]
+22:20:55.333: (I)  7156:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4194304 total count 1"
+22:20:55.335: (I)  7156:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6553600 total count 2"
+22:20:55.335: (I)  7156:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8912896 total count 3"
+22:20:55.336: (I)  7156:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11272192 total count 4"
+22:20:55.339: (W)  7156:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:20:55.392: (I)  7156:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 13631488 total count 5"
+22:20:55.453: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:20:55.453: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:20:55.506: (!) 25924:                     : Logger::write()                         : Open output video stream [OK]
+22:20:55.730: (I) 25924:                     : threadProc()                            : encoder opened
+22:20:55.747: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:20:58.652: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:21:00.975: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:21:03.854: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:21:09.513: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:21:14.205: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:21:18.504: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:21:24.813: (I) 24684:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:21:29.098: (I) 25924:                     : threadProc()                            : encoder closed
+22:21:29.098: (I) 25924:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:21:29.141: (I) 25924:                     : threadProc()                            : checking encoding result...
+22:21:29.141: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:21:29.345: (W) 25924:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:21:29.345: (I) 25924:                     : threadProc()                            : encoding done
+22:21:31.030: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:23:23.946: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:23:23.947: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:23:23.951: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 4
+22:23:32.729: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+22:24:59.122: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:24:59.122: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:24:59.124: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+22:25:06.087: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:25:06.098: (I) 17340:                     : threadProc()                            : Encoder thread id:  17340
+22:25:06.099: (I) 17340:                     : threadProc()                            : --- start encoding thread ---
+22:25:06.127: (I) 17340:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:25:06.127: (I) 17340:                     : threadProc()                            : --- encoder context ---
+22:25:06.127: (I) 17340:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:25:06.127: (I) 17340:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:25:06.127: (I) 17340:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:25:06.127: (I) 17340:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:25:06.127: (I) 17340:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:25:06.127: (I) 17340:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:25:06.127: (I) 17340:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:25:06.127: (I) 17340:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:25:06.127: (I) 17340:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:25:06.127: (I) 17340:                     : threadProc()                            : encoding mediaprocessor init done
+22:25:06.128: (I) 17340:                     : threadProc()                            : output format:  webm
+22:25:06.128: (I) 17340:                     : threadProc()                            : quality:  2
+22:25:06.128: (I) 17340:                     : threadProc()                            : frame size:  "1024x576"
+22:25:06.128: (I) 17340:                     : threadProc()                            : document duration:  1905000000
+22:25:06.128: (I) 17340:                     : threadProc()                            : clip count:  10
+22:25:06.128: (I) 17340:                     : threadProc()                            : audio clip count:  8
+22:25:06.128: (I) 17340:                     : threadProc()                            : use audio loop:  false
+22:25:06.128: (I) 17340:                     : threadProc()                            : text count:  1
+22:25:06.129: (I) 17340:                     : threadProc()                            : most used text:  "Bloom"
+22:25:06.129: (W) 17340:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:25:06.129: (I) 17340:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\Mi proyecto 1 2021-06-08_22-24-59.webm"
+22:25:06.129: (I) 17340:                     : threadProc()                            : --- encoding parameters ---
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : use FFMPEG encoder
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : width:  1024
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : height:  576
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : fps:  30
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : video bitrate:  8000000
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : sample rate:  48000
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : audio format:  1
+22:25:06.129: (I) 17340:                     : ffmpegencoder::dumpSettings()           : profile:  1
+22:25:06.129: (I) 17340:                     : Logger::write()                         : create output video stream [OK]
+22:25:06.132: (!) 17340:                     : Logger::write()                         : Open output video stream [OK]
+22:25:06.136: (I) 17340:                     : threadProc()                            : encoder opened
+22:25:06.144: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:25:06.161: (I) 26556:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4194304 total count 1"
+22:25:06.164: (I) 26556:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6553600 total count 2"
+22:25:06.164: (I) 26556:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8912896 total count 3"
+22:25:06.165: (I) 26556:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11272192 total count 4"
+22:25:06.168: (W) 26556:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:25:06.221: (I) 26556:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 13631488 total count 5"
+22:25:06.242: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:25:06.243: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:25:09.099: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:25:11.647: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:25:14.771: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:25:20.860: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:25:25.890: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:25:30.567: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:25:37.402: (I) 18724:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:25:42.330: (I) 17340:                     : threadProc()                            : encoder closed
+22:25:42.330: (I) 17340:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:25:42.362: (I) 17340:                     : threadProc()                            : checking encoding result...
+22:25:42.363: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:25:42.446: (W) 17340:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:25:42.446: (I) 17340:                     : threadProc()                            : encoding done
+22:25:44.303: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:26:19.928: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:26:19.929: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:26:19.979: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 50
+22:26:28.767: (I) 17684: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:26:28.778: (I) 24480:                     : threadProc()                            : Encoder thread id:  24480
+22:26:28.778: (I) 24480:                     : threadProc()                            : --- start encoding thread ---
+22:26:28.806: (I) 24480:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:26:28.806: (I) 24480:                     : threadProc()                            : --- encoder context ---
+22:26:28.806: (I) 24480:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:26:28.806: (I) 24480:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:26:28.806: (I) 24480:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:26:28.806: (I) 24480:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:26:28.806: (I) 24480:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:26:28.806: (I) 24480:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:26:28.807: (I) 24480:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:26:28.807: (I) 24480:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:26:28.807: (I) 24480:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:26:28.807: (I) 24480:                     : threadProc()                            : encoding mediaprocessor init done
+22:26:28.808: (I) 24480:                     : threadProc()                            : output format:  webm
+22:26:28.808: (I) 24480:                     : threadProc()                            : quality:  1
+22:26:28.808: (I) 24480:                     : threadProc()                            : frame size:  "1024x576"
+22:26:28.808: (I) 24480:                     : threadProc()                            : document duration:  1905000000
+22:26:28.808: (I) 24480:                     : threadProc()                            : clip count:  10
+22:26:28.808: (I) 24480:                     : threadProc()                            : audio clip count:  8
+22:26:28.808: (I) 24480:                     : threadProc()                            : use audio loop:  false
+22:26:28.808: (I) 24480:                     : threadProc()                            : text count:  1
+22:26:28.808: (I) 24480:                     : threadProc()                            : most used text:  "Bloom"
+22:26:28.808: (W) 24480:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:26:28.809: (I) 24480:                     : threadProc()                            : encoding starting - output  "C:/Users/lumo9/Documents/TIC'S (Ahora si acabo la carrera xD)/6° Semestre/Desarrollo Sustentable/Unidad 4\\Mi proyecto 1 2021-06-08_22-26-19.webm"
+22:26:28.809: (I) 24480:                     : threadProc()                            : --- encoding parameters ---
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : use FFMPEG encoder
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : width:  1024
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : height:  576
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : fps:  30
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : video bitrate:  8000000
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : sample rate:  48000
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : audio format:  1
+22:26:28.809: (I) 24480:                     : ffmpegencoder::dumpSettings()           : profile:  0
+22:26:28.809: (I) 24480:                     : Logger::write()                         : create output video stream [OK]
+22:26:28.812: (!) 24480:                     : Logger::write()                         : Open output video stream [OK]
+22:26:28.816: (I) 24480:                     : threadProc()                            : encoder opened
+22:26:28.822: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+22:26:28.840: (I) 18448:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4194304 total count 1"
+22:26:28.842: (I) 18448:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6553600 total count 2"
+22:26:28.842: (I) 18448:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8912896 total count 3"
+22:26:28.844: (I) 18448:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 11272192 total count 4"
+22:26:28.847: (W) 18448:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:26:28.857: (I) 17684: ui.player           : Player::onPause()                       : Pause: clk: [03:10.499 (1904990000)]slider: [03:10.499 (1904990000)], state: Player::State(Paused), doc: Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+22:26:28.857: (W) 17684:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:26:28.905: (I) 18448:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 13631488 total count 5"
+22:26:31.737: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/alguna vez.m4a"
+22:26:34.131: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/indice enferomos.m4a"
+22:26:37.057: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/filtro.m4a"
+22:26:42.916: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/centros.m4a"
+22:26:47.669: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/proceso.m4a"
+22:26:51.967: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/pasos.m4a"
+22:26:59.022: (I) 17908:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/Grabación.m4a"
+22:27:03.998: (I) 24480:                     : threadProc()                            : encoder closed
+22:27:03.998: (I) 24480:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:27:04.022: (I) 24480:                     : threadProc()                            : checking encoding result...
+22:27:04.022: (I) 17684: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:27:04.069: (W) 24480:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:27:04.069: (I) 24480:                     : threadProc()                            : encoding done
+22:27:06.530: (I) 17684: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+22:28:45.855: (I) 17684: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+22:28:45.855: (I) 17684: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+22:28:45.924: (I) 17684: ui.player           : Player::~Player                         : Entering 'Delete player'
+22:28:45.964: (I) 17684: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 40
+22:28:46.015: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+22:28:46.017: (I) 17684: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 2
+22:28:46.017: (I) 17684:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+22:28:46.556: (I) 17684:                     : MetricSender::waitForSendAllImpl()      : Metrics was sent in 539 msec
+22:28:46.871: (I) 17684:                     : Application::~Application()             : App finished normally
+22:28:46.875: (I) 17684: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

@@ -1,0 +1,128 @@
+
+
+------------------------------------------------------------
+Application started
+09:36:39.712: (I) 13316: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+09:36:39.716: (I) 13316: ice.systeminfo      : Kernel version: "10.0.18363"
+09:36:39.716: (I) 13316: ice.systeminfo      : CPU architecture: "x86_64"
+09:36:39.716: (I) 13316: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+09:36:39.716: (I) 13316: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+09:36:39.716: (I) 13316: ice.systeminfo      : BuildVersion: "2.3.8"
+09:36:39.734: (I) 13316: ice.systeminfo      : DisplayVersion: "2.38"
+09:36:39.734: (I) 13316: ice.systeminfo      : PID: 9812
+09:36:39.734: (I) 13316: ice.systeminfo      : Main thread id: 13316
+09:36:39.734: (I) 13316: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+09:36:39.734: (I) 13316: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+09:36:39.734: (I) 13316: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+09:36:39.734: (I) 13316: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+09:36:39.734: (I) 13316: ice.systeminfo      : Overrided QT_DEVICE_PIXEL_RATIO found: "auto"
+09:36:39.734: (I) 13316: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 144, phyDpi: 158.196, log/phy: 91%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1020}
+09:36:39.734: (I) 13316: ice.systeminfo      : 
+09:36:39.743: (I) 13316: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "es_MX"
+09:36:39.743: (W) 13316: ice.translator      : IceTranslator::translate()              : Can't translate: LocaleName not found: "es_MX"
+09:36:39.743: (W) 13316: ice.translator      : IceTranslator::translate()              : Can't translate: LocaleName not found: "es_MX"
+09:36:39.777: (I) 13316: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "es_ES"
+09:36:39.781: (W) 13316: ice.translator      : IceTranslator::translate()              : Current LocaleName is the same as requested: "es_ES"
+09:36:39.781: (I) 13316: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+09:36:39.781: (I) 13316: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+09:36:47.690: (I) 13316: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+09:36:47.690: (I) 13316: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+09:36:47.690: (I) 13316: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists, connect to iceUi->mainWindowCreated()
+09:36:48.390: (I) 13316: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 700 msec
+09:36:48.390: (I) 13316: app.app             : Application::init                       : Entering 'Init app'
+09:36:48.683: (I) 13316: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+09:36:48.694: (I) 13316: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+09:36:48.694: (I) 13316: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+09:36:48.694: (I) 13316: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+09:36:48.701: (I) 13316: ui.player           : Player::Player                          :     Entering 'Create player'
+09:36:48.735: (I) 13316:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) Iris(R) Plus Graphics"
+09:36:48.803: (I) 13316:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+09:36:48.803: (I) 13316:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) Iris(R) Plus Graphics"
+09:36:48.803: (I) 13316:                     : Player::Player()                        :       --- mediaprocessor context ---
+09:36:48.803: (I) 13316:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+09:36:48.803: (I) 13316:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+09:36:48.803: (I) 13316:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+09:36:48.803: (I) 13316:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+09:36:48.803: (I) 13316:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       		channel count: 8
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       		channel mask: 1599
+09:36:49.680: (I) 13316:                     : audiorender::applySettingsFromSink()    :       		block size: 32
+09:36:49.821: (I) 13316: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1120
+09:36:49.853: (I) 13316:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+09:36:50.561: (I) 13316: ice.windowgeometry  : IceWindow::readState()                  :     Loaded initial geometry: QRect(260,77 1400x865)
+09:36:50.561: (I) 13316: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1867
+09:36:50.847: (W) 13316:                     : LicenseService::loadLicenseInfo()       :   License file not found: "C:\\Users\\lumo9\\AppData\\Local\\Icecream\\Icecream Video Editor\\license.lic"
+09:36:50.847: (I) 13316: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 2457
+09:36:50.847: (I) 13316: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: true
+09:36:51.026: (I) 13316: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+09:36:51.026: (I) 13316: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/lumo9/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+09:36:51.031: (I) 13316: app.documentsstorage: DocumentsStorage::saveDocument          :   Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+09:36:51.042: (I) 13316: app.documentsstorage: DocumentsStorage::saveDocument          :   Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 11
+09:36:51.043: (I) 13316: app.documentsstorage: DocumentsStorage::createDocument()      :   New doc created: "{8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}"
+09:36:51.045: (I) 13316: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+09:36:51.048: (I) 13316: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x232d0fb4c70, name="MainWindow")
+09:36:51.048: (I)  5944: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+09:36:51.049: (I)  5944: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 1
+09:36:51.310: (I) 13316: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+09:36:51.310: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+09:36:51.310: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+09:36:51.310: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+09:36:51.311: (I) 13316:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+09:36:51.311: (I) 13316:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+09:36:51.311: (I) 13316:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+09:36:51.311: (I) 13316:                     : mediaprocessor::setDocument()           :       Process setDocument()
+09:36:51.311: (I) 13316:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+09:36:51.311: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+09:36:51.312: (I) 13316: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+09:36:51.312: (I) 13316: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+09:36:51.312: (I) 13316: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+09:36:51.312: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 0
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+09:36:51.313: (I) 13316: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+09:36:51.313: (I) 13316: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 268
+09:36:51.313: (I) 13316: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 287
+09:36:56.026: (I) 13316: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.38&pid=9&mh=0e671d01b7284d5f5f03e4e8ae844ba4&h=3bbd79c1bd0d8cb02bec89f2f84aee1e"
+09:36:56.273: (I) 13316: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.38"
+09:36:56.273: (I) 13316: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.38" current version: 2.38 result: 0
+09:37:12.256: (I) 13316: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+09:37:12.256: (I) 13316: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+09:37:12.256: (I) 13316: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+09:37:17.497: (I) 13316: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+09:37:17.498: (I)  5944: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+09:37:17.511: (I)  5944: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+09:37:17.511: (I)  5944: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 13
+09:37:17.518: (I) 12168:                     : dxresourcemanager::getResource()        :   Allocate DX resources:  "total reserved 3686400 total count 1"
+09:37:17.545: (I) 13316: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 48
+09:37:17.660: (I) 12168:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 5760000 total count 2"
+09:37:42.083: (I) 17380:                     : main::lambda()                          : Dxdiag tool completed with status : QProcess::ExitStatus(NormalExit) . Exit code:  0 . Error code:  QProcess::ProcessError(UnknownError)
+09:37:59.346: (I) 13316: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+09:37:59.346: (I) 13316: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+09:37:59.356: (I) 13316: ui.player           : Player::~Player                         : Entering 'Delete player'
+09:37:59.412: (I) 13316: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 56
+09:37:59.447: (I) 13316: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+09:37:59.458: (I) 13316: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 11
+09:37:59.720: (I) 13316:                     : Application::~Application()             : App finished normally
+09:37:59.721: (I) 13316: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

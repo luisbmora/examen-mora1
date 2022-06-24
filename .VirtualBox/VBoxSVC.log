@@ -1,0 +1,132 @@
+00:00:00.013534 main     VirtualBox COM Server 6.1.30 r148432 win.amd64 (Nov 22 2021 15:15:30) release log
+00:00:00.013545 main     Log opened 2022-01-07T05:40:04.350696800Z
+00:00:00.013546 main     Build Type: release
+00:00:00.013577 main     OS Product: Windows 10
+00:00:00.013578 main     OS Release: 10.0.19042
+00:00:00.013578 main     OS Service Pack: 
+00:00:00.179713 main     DMI Product Name: 81VV
+00:00:00.200208 main     DMI Product Version: Lenovo IdeaPad S340-14IIL
+00:00:00.200223 main     Firmware type: UEFI
+00:00:00.200733 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.200870 main     Host RAM: 7967MB (7.7GB) total, 948MB available
+00:00:00.200900 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.200901 main     Process ID: 4336
+00:00:00.200902 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.691108          VirtualBox: object creation starts
+00:00:00.697361          Home directory: 'C:\Users\lumo9\.VirtualBox'
+00:00:00.697475          Installed Drivers:
+00:00:00.749518            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.30.48432)
+00:00:00.777901            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.30.48432)
+00:00:00.778348            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.30.48432)
+00:00:00.778682            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.30.48432)
+00:00:00.843855          usbLibGetDevices: Starting USB device enumeration
+00:00:00.844182          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.847471          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.942878          USB: Unknown USB device detected (idVendor: 0x174f, idProduct: 0x2426)
+00:00:00.945113          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:01.120848          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:00:01.126781          HostDnsMonitor: initializing
+00:00:01.137230          HostDnsMonitor: updating information
+00:00:01.137299          HostDnsMonitor: old information
+00:00:01.137300            no server entries
+00:00:01.137301            no domain set
+00:00:01.137302            no search string entries
+00:00:01.137303          HostDnsMonitor: new information
+00:00:01.137303            server 1: 200.77.146.137
+00:00:01.137304            server 2: 189.198.222.137
+00:00:01.137305            server 3: 189.198.130.3
+00:00:01.137306            no domain set
+00:00:01.137306            no search string entries
+00:00:01.217478          VD: VDInit finished with VINF_SUCCESS
+00:00:01.220678          VirtualBox: object created
+00:00:18.234983          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:18.714285          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:55.752835 dns-monitor HostDnsMonitor: updating information
+00:02:55.752876 dns-monitor HostDnsMonitor: unchanged
+00:03:48.649236          Loading settings file "C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\SO II\pfSense\pfSense.vbox" with version "1.15-windows"
+00:03:48.856632          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {896bbe04-5c3e-4264-be18-eb1ed8eda0e7}}, preserve=false aResultDetail=0
+00:03:49.064193          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:59.956827          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:03:59.963222          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:59.979433          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:00.081448          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:00.113434          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:00.137428          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:00.246552          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:04:31.357143          Saving settings file "C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\SO II\pfSense\pfSense.vbox" with version "1.15-windows"
+00:04:37.217786          Launched VM: 74393872 pid: 5228 (0x146c) frontend: GUI/Qt name: pfSense
+00:04:51.904867          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:04:52.876250          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:04:54.334542          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:04:55.880064          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:04:56.579337          netIfIsWireless: CreateFile on '\\.\{71F336C2-644A-4258-99F1-5EBD7B4C59CD}' failed with rcWin=2 (0x2) - ignoring
+00:17:55.776927 dns-monitor HostDnsMonitor: updating information
+00:17:55.776969 dns-monitor HostDnsMonitor: unchanged
+00:18:07.897001 dns-monitor HostDnsMonitor: updating information
+00:18:07.897033 dns-monitor HostDnsMonitor: unchanged
+00:20:18.330019 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:20:18.333019 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:23:02.543892 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:23:02.544361 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:23:02.545099 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:23:02.545177 USBPROXY USB: Unknown USB device detected (idVendor: 0x174f, idProduct: 0x2426)
+00:27:06.267052 dns-monitor HostDnsMonitor: updating information
+00:27:06.267192 dns-monitor HostDnsMonitor: old information
+00:27:06.267202 dns-monitor   server 1: 200.77.146.137
+00:27:06.267211 dns-monitor   server 2: 189.198.222.137
+00:27:06.267218 dns-monitor   server 3: 189.198.130.3
+00:27:06.267224 dns-monitor   no domain set
+00:27:06.267231 dns-monitor   no search string entries
+00:27:06.267238 dns-monitor HostDnsMonitor: new information
+00:27:06.267244 dns-monitor   no server entries
+00:27:06.267251 dns-monitor   no domain set
+00:27:06.267257 dns-monitor   no search string entries
+00:27:33.643908 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:27:33.644245 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:27:33.644967 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:27:36.429715 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:27:36.429999 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:27:36.430572 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:27:38.749227 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:27:38.749612 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:27:38.750352 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:27:41.738616 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:27:41.739045 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:27:41.739848 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:27:45.225947 dns-monitor HostDnsMonitor: updating information
+00:27:45.225985 dns-monitor HostDnsMonitor: unchanged
+00:29:29.851563 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:29:29.851919 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&21243fa4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:29:29.852655 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:32:55.346361 dns-monitor HostDnsMonitor: updating information
+00:32:55.346491 dns-monitor HostDnsMonitor: unchanged
+00:47:55.394516 dns-monitor HostDnsMonitor: updating information
+00:47:55.394557 dns-monitor HostDnsMonitor: unchanged
+00:54:12.791250 dns-monitor HostDnsMonitor: updating information
+00:54:12.791305 dns-monitor HostDnsMonitor: unchanged
+00:54:15.009866 dns-monitor HostDnsMonitor: updating information
+00:54:15.010082 dns-monitor HostDnsMonitor: old information
+00:54:15.010092 dns-monitor   no server entries
+00:54:15.010099 dns-monitor   no domain set
+00:54:15.010104 dns-monitor   no search string entries
+00:54:15.010109 dns-monitor HostDnsMonitor: new information
+00:54:15.010114 dns-monitor   server 1: 200.77.146.137
+00:54:15.010119 dns-monitor   server 2: 189.198.222.137
+00:54:15.010124 dns-monitor   server 3: 189.198.130.3
+00:54:15.010130 dns-monitor   no domain set
+00:54:15.010134 dns-monitor   no search string entries
+01:02:55.471756 dns-monitor HostDnsMonitor: updating information
+01:02:55.471864 dns-monitor HostDnsMonitor: unchanged
+01:08:51.473869          Saving settings file "C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\SO II\pfSense\pfSense.vbox" with version "1.15-windows"
+01:08:56.038374          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:56.174593          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:56.925752          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:58.759013          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:58.954876          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:59.811264          Saving settings file "C:\Users\lumo9\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:09:09.068674 main     VirtualBox: object deletion starts
+01:09:09.310115 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\lumo9\Documents\TIC'S (Ahora si acabo la carrera xD)\7° Semestre\SO II\pfSense\pfSense.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:09:09.442319 main     HostDnsMonitor: shutting down ...
+01:09:09.442394 main     HostDnsMonitor: shut down
+01:09:09.480139 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:09:09.539792 main     VirtualBox: object deleted

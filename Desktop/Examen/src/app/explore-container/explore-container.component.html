@@ -1,0 +1,24 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Lista de Usuarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+
+  <ion-list>
+    <ion-list-header> Usuarios </ion-list-header>
+    <div *ngFor="let user of usuarios">
+      <ion-item  (click)="userDeatails(user)">
+        <ion-avatar slot="start">
+          <img src="https://ui-avatars.com/api/?name={{user.name}}" />
+        </ion-avatar>
+        <ion-label>
+          <h2>{{ user.name }}</h2>
+          <h3>{{ user.username }}</h3>
+          <p>{{ user.email }}</p>
+        </ion-label>
+      </ion-item>
+    </div>
+  </ion-list>
+</ion-content>

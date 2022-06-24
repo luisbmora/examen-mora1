@@ -1,0 +1,129 @@
+
+
+------------------------------------------------------------
+Application started
+17:47:55.409: (I) 20068: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+17:47:55.409: (I) 20068: ice.systeminfo      : Kernel version: "10.0.19042"
+17:47:55.409: (I) 20068: ice.systeminfo      : CPU architecture: "x86_64"
+17:47:55.409: (I) 20068: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+17:47:55.409: (I) 20068: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+17:47:55.409: (I) 20068: ice.systeminfo      : BuildVersion: "2.3.8"
+17:47:55.410: (I) 20068: ice.systeminfo      : DisplayVersion: "2.38"
+17:47:55.410: (I) 20068: ice.systeminfo      : PID: 10364
+17:47:55.410: (I) 20068: ice.systeminfo      : Main thread id: 20068
+17:47:55.410: (I) 20068: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+17:47:55.410: (I) 20068: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+17:47:55.410: (I) 20068: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+17:47:55.410: (I) 20068: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+17:47:55.410: (I) 20068: ice.systeminfo      : Overrided QT_DEVICE_PIXEL_RATIO found: "auto"
+17:47:55.412: (I) 20068: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 144, phyDpi: 158.196, log/phy: 91%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1020}
+17:47:55.412: (I) 20068: ice.systeminfo      : 
+17:47:55.445: (I) 20068: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "es_MX"
+17:47:55.586: (I) 20068: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "es_ES"
+17:47:55.596: (I) 20068: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+17:47:55.596: (I) 20068: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+17:48:01.141: (I) 20068: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+17:48:01.141: (I) 20068: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+17:48:01.260: (I) 20068: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists, connect to iceUi->mainWindowCreated()
+17:48:02.580: (I) 20068: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 1439 msec
+17:48:02.594: (I) 20068: app.app             : Application::init                       : Entering 'Init app'
+17:48:04.544: (I) 20068: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+17:48:04.598: (I) 20068: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+17:48:04.598: (I) 20068: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+17:48:04.599: (I) 20068: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+17:48:04.694: (I) 20068: ui.player           : Player::Player                          :     Entering 'Create player'
+17:48:06.830: (I) 20068:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) Iris(R) Plus Graphics"
+17:48:07.922: (I) 20068:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+17:48:07.922: (I) 20068:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) Iris(R) Plus Graphics"
+17:48:07.922: (I) 20068:                     : Player::Player()                        :       --- mediaprocessor context ---
+17:48:07.922: (I) 20068:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+17:48:07.922: (I) 20068:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+17:48:07.922: (I) 20068:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+17:48:07.922: (I) 20068:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+17:48:07.922: (I) 20068:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       		channel count: 8
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       		channel mask: 1599
+17:48:08.556: (I) 20068:                     : audiorender::applySettingsFromSink()    :       		block size: 32
+17:48:08.720: (I) 20068: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 4026
+17:48:08.972: (I) 20068:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+17:48:09.452: (I) 20068: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(260,77 1400x865)
+17:48:09.453: (I) 20068: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 4854
+17:48:09.642: (W) 20068:                     : LicenseService::loadLicenseInfo()       :   License file not found: "C:\\Users\\lumo9\\AppData\\Local\\Icecream\\Icecream Video Editor\\license.lic"
+17:48:09.642: (I) 20068: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 7048
+17:48:09.642: (I) 20068: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+17:48:09.643: (I) 20068: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+17:48:09.643: (I) 20068: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/lumo9/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+17:48:09.711: (I) 20068: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+17:48:09.714: (I) 20068: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x260b2d04d50, name="MainWindow")
+17:48:09.714: (I)  9024: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+17:48:09.926: (I)  9024: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 212
+17:48:10.070: (I) 20068: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+17:48:10.070: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+17:48:10.070: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 3
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+17:48:10.073: (I) 20068:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+17:48:10.073: (I) 20068:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+17:48:10.073: (I) 20068:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(Mi proyecto 1, {8cfbd9e0-c5...)
+17:48:10.073: (I) 20068:                     : mediaprocessor::setDocument()           :       Process setDocument()
+17:48:10.073: (I) 20068:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+17:48:10.073: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+17:48:10.074: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+17:48:10.074: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+17:48:10.074: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+17:48:10.074: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+17:48:10.074: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+17:48:10.074: (I) 20068: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+17:48:10.082: (I) 20068: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+17:48:10.082: (I) 20068: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 8
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 8
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+17:48:10.082: (I) 20068: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+17:48:10.082: (I) 20068: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 371
+17:48:10.082: (I) 20068: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 439
+17:48:10.109: (I) 20068: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+17:48:10.109: (I) 20068: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+17:48:10.109: (I) 20068: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+17:48:10.110: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/rio lerma (1).jpg"
+17:48:10.114: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/ler.jpg"
+17:48:10.115: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/h2o lerma.jpg"
+17:48:10.116: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/WhatsApp Image 2021-06-08 at 9.53.56 PM.jpeg"
+17:48:10.117: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/pasos.jpg"
+17:48:10.117: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/WhatsApp Image 2021-06-08 at 10.07.26 PM.jpeg"
+17:48:10.118: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/lerma.jpg"
+17:48:10.119: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/proceso.jpg"
+17:48:10.119: (W) 20068: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/lumo9/Downloads/rio.jpg"
+17:48:10.177: (I) 10404:                     : main::lambda()                          : run preview cache storage check...
+17:48:10.177: (I) 10404:                     : main::lambda()                          : preview cache storage check done
+17:48:13.974: (I) 15676:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/lumo9/Documents/Grabaciones de sonido/h2o lerma.m4a"
+17:48:14.651: (I) 20068: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.38&pid=9&mh=0e671d01b7284d5f5f03e4e8ae844ba4&h=3bbd79c1bd0d8cb02bec89f2f84aee1e"
+17:48:14.939: (I) 20068: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.66"
+17:48:14.940: (I) 20068: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.66" current version: 2.38 result: 28
+17:48:14.940: (I) 20068: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Emit newVersionAvalible: "2.66"
+17:48:14.958: (I) 20068: ice.updater         : IceApplication::initUpdateChecker::lambd: Ask about new version
+17:48:43.488: (I) 20068: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+17:48:43.488: (I) 20068: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+17:48:43.699: (I) 20068: ui.player           : Player::~Player                         : Entering 'Delete player'
+17:48:43.877: (I) 20068: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 178
+17:48:43.890: (I) 20068: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'
+17:48:43.891: (I) 20068: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {8cfbd9e0-c51b-4cc3-8b27-d941f2a35d53}'. Elapsed time: 1
+17:49:03.395: (I) 21492:                     : main::lambda()                          : Dxdiag tool completed with status : QProcess::ExitStatus(NormalExit) . Exit code:  0 . Error code:  QProcess::ProcessError(UnknownError)
+17:49:03.468: (I) 20068:                     : Application::~Application()             : App finished normally
+17:49:03.468: (I) 20068: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
